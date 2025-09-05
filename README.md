@@ -1,4 +1,4 @@
-# Capítulo I: Introducción
+l # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
@@ -53,9 +53,41 @@ En términos monetarios, el sobreconsumo energético en Lima es significativo. L
 
 
 ### 1.2.2. Lean UX Process
+
+Para asegurar que nuestra solución tecnológica responda a necesidades reales y no a simples suposiciones, aplicamos el Lean UX Process. Esta metodología nos permite entender el problema, reconocer lo que asumimos como cierto y      transformarlo en hipótesis comprobables. Con ello buscamos alinear el desarrollo de nuestro software con los objetivos de los usuarios y con la visión de sostenibilidad que guía nuestra startup.
+
 #### 1.2.2.1. Lean UX Problem Statements
+
+Nuestro proyecto se encuentra en el dominio de la eficiencia energética y las tecnologías IoT.
+Los segmentos de clientes principales son los hogares limeños y las pequeñas y medianas empresas (PYMEs) que enfrentan un consumo eléctrico elevado y poco controlado.
+El dolor (pain point) que encontramos es que estos usuarios pagan facturas elevadas sin contar con información clara sobre qué dispositivos consumen más ni cómo reducir su gasto.
+La brecha (gap) está en la falta de herramientas accesibles en el mercado local que permitan monitorear el consumo en tiempo real y ofrecer recomendaciones prácticas.
+Nuestra visión y estrategia es acercar una solución IoT “verde” y sencilla de usar, que combine sensores inteligentes, control remoto de dispositivos y recomendaciones automáticas.
+
 #### 1.2.2.2. Lean UX Assumptions
+
+Al iniciar este proyecto, reconocemos varias suposiciones que debemos validar:
+
+. Creemos que los usuarios limeños valoran poder visualizar en tiempo real su consumo eléctrico.
+
+. Suponemos que estarán dispuestos a invertir en dispositivos IoT accesibles si estos les generan ahorros tangibles en sus facturas.
+
+. Asumimos que las PYMEs priorizan la reducción de costos energéticos como parte de su sostenibilidad operativa.
+
+. Creemos que los usuarios prefieren una aplicación simple y fácil de usar, por encima de una plataforma con demasiadas funciones complejas.
+
+Estas suposiciones nos ayudan a guiar el diseño inicial, pero solo se confirmarán a través de pruebas con usuarios y despliegues piloto.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+A partir de nuestras suposiciones, formulamos hipótesis comprobables que guiarán los experimentos y pruebas:
+
+Creemos que los hogares limeños reducirán su consumo mensual en un 10% si utilizan un sistema de monitoreo en tiempo real. Sabremos que esto es cierto cuando al menos el 70% de los usuarios piloto reporten un ahorro en sus facturas después de tres meses de uso.
+
+Creemos que las PYMEs usarán regularmente los reportes de consumo si el sistema incluye recomendaciones automáticas de ahorro. Sabremos que esto es cierto cuando al menos el 50% de las empresas piloto consulten el dashboard semanalmente.
+
+Creemos que los usuarios residenciales interactuarán de forma constante con la plataforma si se incluyen funcionalidades simples como encendido/apagado remoto y programación de horarios. Sabremos que esto es cierto cuando más del 60% de los usuarios activos usen estas funciones al menos una vez por semana.
+
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
