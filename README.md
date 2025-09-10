@@ -21,7 +21,7 @@
 | Escobar Palomino, Sebastian   | U202125968   |
 | Gonza Morales, Anderson       | U202120836   |
 | Nuñez Soto, Andy Arturo       | U999999999   |
-| Pastor Napa, Juan             | U999999999   |
+| Pastor Napa, Juan             | U202217288   |
 
 </div>
 
