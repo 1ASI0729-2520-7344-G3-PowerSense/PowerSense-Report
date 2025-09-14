@@ -13,8 +13,7 @@ Nuestra visión es convertirnos en un referente en toda Sudamérica en el desarr
 |------------------------------------------|-------------------------------|
 | **Ingeniería de Software – U20213241**<br><br>**Habilidades:** Soy estudiante de Ingeniería de Software cursando el 5to ciclo de mi carrera en la UPC y tengo 20 años. Soy una persona empática e intuitiva. Me gusta desarrollar los proyectos de manera secuencial y eficiente. En equipo, me esfuerzo por colaborar. Tengo experiencia en programación con C ++, c#, Python, así como en el diseño web con html, CSS y JavaScript. |![Foto_Irving](https://imgur.com/ZDr5MfF.png)|
 |  **Juan Carlos Pastor Napa** | Foto |
-|------------------------------------------|-------------------------------|
-| **Ingeniería de Software – u202217288**<br><br>**Habilidades:** Mi nombre es Juan Carlos Pastor Napa, tengo 20 años y actualmente estudio ingeniería de software en la UPC, poseo conocimientos en Python y c ++, experiencia con Hardware como tecnico, así como experiencia a servicio en una empresa y varios trabajos de la misma naturaleza, soy apasionado por el deporte, la naturaleza y por el software.  |![Foto_Irving](https://cdn.discordapp.com/attachments/836749001554395211/1416901838430670868/image.png?ex=68c8882b&is=68c736ab&hm=95fb93d3afdf38fefe84d4d8fe5dbab486266a4c70101aefecd9ec81c0acb765&)|
+| **Ingeniería de Software – u202217288**<br><br>**Habilidades:** Mi nombre es Juan Carlos Pastor Napa, tengo 20 años y actualmente estudio ingeniería de software en la UPC, poseo conocimientos en Python y c ++, experiencia con Hardware como tecnico, así como experiencia a servicio en una empresa y varios trabajos de la misma naturaleza, soy apasionado por el deporte, la naturaleza y por el software.  |![Foto_Juan](https://cdn.discordapp.com/attachments/836749001554395211/1416901838430670868/image.png?ex=68c8882b&is=68c736ab&hm=95fb93d3afdf38fefe84d4d8fe5dbab486266a4c70101aefecd9ec81c0acb765&)|
 
 
 ## 1.2. Solution Profile
@@ -93,4 +92,16 @@ Creemos que los usuarios residenciales interactuarán de forma constante con la 
 
 #### 1.2.2.4. Lean UX Canvas
 
+El Lean UX Canvas nos permite sintetizar en un solo marco los elementos clave de nuestro proyecto. A través de esta herramienta identificamos el problema central, los usuarios a quienes está dirigida la solución, los beneficios que esperan, así como las suposiciones e hipótesis que guiarán la validación de nuestro producto.
+
+![Foto_leanUXcanvas](https://imgur.com/ooqIITR.png)
+
 ## 1.3. Segmentos objetivo
+
+### Hogares limeños con recibo de luz
+
+En Lima Metropolitana, casi la totalidad de hogares cuenta con acceso a electricidad (97.6%), lo que los convierte en un segmento consolidado que paga recibo de luz regularmente (INEI, 2021). El jefe de hogar suele ser adulto de mediana edad (~50 años), con un nivel educativo mayor al promedio nacional: cerca del 49% de la población de 18 a 64 años alcanzó educación superior (INEI, 2022). La estructura socioeconómica limeña muestra predominio de la clase media (NSE C: 48% de los hogares), mientras que los hogares promedian 3.5 miembros (APEIM, 2022). En cuanto al consumo energético, Lima registra una mediana de 190 kWh/mes, casi el doble del promedio nacional, lo que se traduce en recibos entre S/60 y S/120 mensuales, dependiendo del equipamiento eléctrico del hogar (Osinergmin, 2023).
+
+### PYMEs limeñas
+
+Lima concentra cerca del 42% de todas las empresas del país, es decir, alrededor de 1.4 millones de unidades económicas, de las cuales más del 99% son micro y pequeñas (SUNAT, 2024). Estas empresas emplean en promedio de 2 a 3 trabajadores y se concentran principalmente en comercio minorista (45%) y servicios (42%), siendo menos frecuente la manufactura (9%) (INEI, 2022). El consumo eléctrico representa un costo fijo relevante: un pequeño negocio limeño puede gastar entre 200 y 300 kWh/mes, lo que equivale a recibos de S/150 a S/250. Estos costos impactan directamente en la rentabilidad, ya que las tarifas comerciales (BT5) no reciben subsidio, lo que hace más crítica la gestión eficiente de la energía en este segmento (Osinergmin, 2023).
