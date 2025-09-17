@@ -23,7 +23,7 @@
 ### 4.3.1. Landing Page Wireframe.
 
 ### 4.3.2. Landing Page Mock-up.
-A continuación los Mock ups, estos son los modelos de diseño que se utilizarán en la elaboración del landing page y servirá de modelo y base para la elaboración del landing page.
+A continuación los Mock ups, estos son los modelos de diseño que se utilizarán en la elaboración del landing page y servirá de modelo y base para la elaboración del landing page. 
 
 <img src="img/mulp1.png">
 <img src="img/mulp2.png">
