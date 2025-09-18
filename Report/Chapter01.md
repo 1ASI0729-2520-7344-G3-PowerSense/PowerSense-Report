@@ -9,7 +9,7 @@ Nuestra visión es convertirnos en un referente en toda Sudamérica en el desarr
 
 **Logotipo del servicio** 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/u79m2Ce.jpeg"  width="100%" />
+  <img src="https://i.imgur.com/u79m2Ce.jpeg"  width="70%" />
 </div>
 
 ### 1.1.2. Perfiles de integrantes del equipo
