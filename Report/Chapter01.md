@@ -7,6 +7,11 @@ Nuestra startup nace en el Perú con el propósito de ofrecer una solución tecn
 
 Nuestra visión es convertirnos en un referente en toda Sudamérica en el desarrollo de soluciones de eficiencia energética inteligente, contribuyendo a la transformación de las ciudades en espacios más sostenibles y resilientes. Nuestra misión es empoderar a los usuarios, ofreciéndoles herramientas accesibles y fáciles de usar que les permitan visualizar su consumo en tiempo real, programar el encendido y apagado de dispositivos, y adoptar hábitos responsables que reduzcan costos y emisiones. De esta manera, buscamos impactar positivamente en la economía de los hogares, el crecimiento empresarial y la preservación del entorno natural, ampliando nuestro alcance desde el Perú hacia la región.
 
+**Logotipo del servicio** 
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/u79m2Ce.jpeg"  width="100%" />
+</div>
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 |  **Allcca Guerrero, Irving** | Foto |
