@@ -5,9 +5,9 @@
 A continuación se presenta una tabla con los competidores más relevantes en Perú para la propuesta _IoS_ (IoT + Software/IA para monitoreo y optimización del consumo eléctrico). El campo `logo_url` queda en blanco para que pegues el enlace de la imagen correspondiente.
 | id | nombre | descripcion | caracteristicas | canal_distribucion | logo_url |  
 |---:|--------|-------------|-----------------|--------------------|----------|  
-| 1 | Smelpro | Soluciones IoT e Inteligencia Artificial para Industria 4.0. Aplicaciones energéticas: monitoreo en tiempo real, detección de fallas, mantenimiento predictivo y optimización de costos operativos. Sectores: energía, agua, minería, manufactura, logística. | - Monitoreo en tiempo real del consumo eléctrico<br>- Detección de fallas y mantenimiento predictivo con IA<br>- Optimización de costos operativos<br>- Soporte para LoRaWAN, Sigfox y redes celulares; dashboards personalizados | - Ventas B2B directas<br>- Integradores y proyectos llave en mano | `<!-- logo URL aquí -->` |  
-| 2 | LoraTech | Empresa líder en soluciones IoT con tecnología LoRaWAN para monitoreo energético. Aplicaciones eléctricas: redes de sensores para consumo eléctrico en tiempo real, control remoto de cargas, alertas y reportes para optimización. Ventajas: bajo consumo, alta penetración en interiores y seguridad de datos. Sectores: industria, agroindustria, edificios inteligentes. | - Redes de sensores LoRaWAN para consumo en tiempo real<br>- Control remoto de cargas y automatización<br>- Alertas y reportes de consumo y anomalías<br>- Dispositivos de bajo consumo y larga autonomía | - Ventas B2B y partners integradores<br>- Proyectos llave‑en‑mano y proveedores de gateways/servicios de red | `<!-- logo URL aquí -->` |  
-| 3 | Teca Perú | Soluciones “llave‑en‑mano” en telemetría y telecontrol con fuerte uso de LoRaWAN. Aplicaciones energéticas: medición en tiempo real de servicios (agua, energía, gas) y despliegues industriales. Casos: edificios inteligentes, minería, agricultura, piscicultura. | - Telemetría y telecontrol llave‑en‑mano<br>- Redes LoRaWAN privadas y gateways<br>- Medición en tiempo real y dashboards industriales<br>- Integración con sistemas SCADA/ERP | - Ventas B2B directas<br>- Integradores de proyectos y contratos con empresas/municipios | `<!-- logo URL aquí -->` |  
+| 1 | Smelpro | Soluciones IoT e Inteligencia Artificial para Industria 4.0. Aplicaciones energéticas: monitoreo en tiempo real, detección de fallas, mantenimiento predictivo y optimización de costos operativos. Sectores: energía, agua, minería, manufactura, logística. | - Monitoreo en tiempo real del consumo eléctrico<br>- Detección de fallas y mantenimiento predictivo con IA<br>- Optimización de costos operativos<br>- Soporte para LoRaWAN, Sigfox y redes celulares; dashboards personalizados | - Ventas B2B directas<br>- Integradores y proyectos llave en mano | ![](https://media.licdn.com/dms/image/v2/D4E0BAQEE408hz04ogQ/company-logo_200_200/company-logo_200_200/0/1707159503649/smelpro_logo?e=2147483647&v=beta&t=A1pA5y-dyGfbO1CuZyANrh2e1NJTgr3bE7_aVm2YyqY) |  
+| 2 | LoraTech | Empresa líder en soluciones IoT con tecnología LoRaWAN para monitoreo energético. Aplicaciones eléctricas: redes de sensores para consumo eléctrico en tiempo real, control remoto de cargas, alertas y reportes para optimización. Ventajas: bajo consumo, alta penetración en interiores y seguridad de datos. Sectores: industria, agroindustria, edificios inteligentes. | - Redes de sensores LoRaWAN para consumo en tiempo real<br>- Control remoto de cargas y automatización<br>- Alertas y reportes de consumo y anomalías<br>- Dispositivos de bajo consumo y larga autonomía | - Ventas B2B y partners integradores<br>- Proyectos llave‑en‑mano y proveedores de gateways/servicios de red | ![](https://media.licdn.com/dms/image/v2/C4E0BAQGkwW0mBTLwow/company-logo_200_200/company-logo_200_200/0/1649220243203/loratech_latam_logo?e=2147483647&v=beta&t=0U4NE8EbMbBMejS4uPCyBF58EkctrZYjj3phCiwJOT8) |  
+| 3 | Teca Perú | Soluciones “llave‑en‑mano” en telemetría y telecontrol con fuerte uso de LoRaWAN. Aplicaciones energéticas: medición en tiempo real de servicios (agua, energía, gas) y despliegues industriales. Casos: edificios inteligentes, minería, agricultura, piscicultura. | - Telemetría y telecontrol llave‑en‑mano<br>- Redes LoRaWAN privadas y gateways<br>- Medición en tiempo real y dashboards industriales<br>- Integración con sistemas SCADA/ERP | - Ventas B2B directas<br>- Integradores de proyectos y contratos con empresas/municipios | ![](https://teca.pe/web/image/website/1/logo/Teca%20%7C%20Soluciones%20IoT?unique=cbd5366) |  
 
 
 ---
@@ -166,8 +166,95 @@ Aunque hay interés en implementar medidas de eficiencia o generación propia, l
 ## 2.3. Needfinding
 --
 ### 2.3.1. User Personas
+-Segmento 1: Hogares
+
+![](https://raw.githubusercontent.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report/refs/heads/feature/chapter02/img/User_persona-Maria-seg1.png)
+
+-Segmento 2: Negocios
+
+![User persona Julio - Segmento 2](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report/blob/feature/chapter02/img/User_persona_Julio_seg2.png?raw=true)
+
+
 ### 2.3.2. User Task Matrix
+
+  __Segmento 1: Hogares__ 
+| Tarea principal                                                     | Frecuencia | Importancia |
+|---------------------------------------------------------------------|------------|-------------|
+| Instalar el kit PowerSense de forma rápida y segura (sin obras)     | Una vez    | Alta        |
+| Conectar la app y ver consumo por circuito en S/ y tiempo real      | Frecuente  | Alta        |
+| Recibir alertas de picos/anomalías y entender qué hacer             | Frecuente  | Alta        |
+| Seguir recomendaciones simples para ahorrar (horarios/hábitos)      | Frecuente  | Alta        |
+| Ver el “ahorro logrado” y el estimado de ROI                        | Frecuente  | Alta        |
+
+---
+
+ __Segmento 2: PYME__ 
+
+| Tarea principal                                                             | Frecuencia | Importancia |
+|-----------------------------------------------------------------------------|------------|-------------|
+| Desplegar PowerSense fuera de horario sin parar operación                   | Una vez    | Alta        |
+| Monitorear circuitos/equipos críticos en tiempo real (en S/ por hora)       | Frecuente  | Alta        |
+| Recibir alertas operativas (frío, compresor, picos) y actuar                 | Frecuente  | Alta        |
+| Programar/automatizar cargas no críticas fuera de punta                     | Frecuente  | Alta        |
+| Revisar reporte mensual con ahorro y payback para socios                    | Frecuente  | Alta        |
+
+---
 ### 2.3.3. User Journey Mapping
+
+Journey Map - Segmento 1 (Hogares):
+
+![](https://raw.githubusercontent.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report/refs/heads/feature/chapter02/img/Seg1_journeymap.png)
+
+Journey Map - Segmento 2 (Negocios):
+
+![](https://raw.githubusercontent.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report/refs/heads/feature/chapter02/img/Seg2_journeymap.png)
+
+
 ### 2.3.4. Empathy Mapping
+
+Empathy Map - Segmento 1 (Hogares)
+![](https://raw.githubusercontent.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report/refs/heads/feature/chapter02/img/seg1_empathy_mapping.png)
+
+
+Empathy Map - Segmento 2 (Negocios)
+![](https://raw.githubusercontent.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report/refs/heads/feature/chapter02/img/seg2_empathy_mapping.png)
+
 ### 2.3.5. As-is Scenario Mapping
+
+As-Is Scneario Map - Segmento 1:
+![](https://raw.githubusercontent.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report/refs/heads/feature/chapter02/img/Seg1_AsIs_scenariomap.png)
+
+As-Is Scneario Map - Segmento 2:
+![](https://raw.githubusercontent.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report/refs/heads/feature/chapter02/img/Seg2_AsIs_scenariomap.png)
+
 ## 2.4. Ubiquitous Language
+
+En esta sección se presentara un glosario de términos y conceptos utilizados en el dominio de negocio de PowerSense.
+
+| Término (Inglés) | Definición breve |  
+|---|---|  
+| **Cuenta (Account)** | Identidad del usuario en PowerSense: acceso, estado y datos básicos. |  
+| **Usuario (User)** | Persona con cuenta; puede ser cliente o trabajador. |  
+| **Cliente (Customer)** | Usuario que contrata servicios o compra productos. |  
+| **Trabajador Técnico (Worker)** | Profesional que ofrece servicios a través de la plataforma. |  
+| **Experiencia (Experience)** | Historial laboral o de proyectos que muestra la trayectoria del trabajador. |  
+| **Reseña (Review)** | Evaluación y calificación dejada por un cliente tras un servicio. |  
+| **Propuesta (Proposal)** | Oferta formal del trabajador que especifica alcance, tiempo y costo. |  
+| **Chat / Mensaje (Chat / Message)** | Canal y unidad de comunicación entre cliente y trabajador. |  
+| **Orden de Servicio (Service Order)** | Documento que detalla el trabajo a realizar: dirección, fecha, materiales y estado. |  
+| **Orden de Pago / Pago (Sales Order / Payment)** | Registro del cobro por un servicio; incluye monto y estado (pendiente/pagado). |  
+| **Reclamo / Ticket (Ticket)** | Registro de un problema o disputa que requiere atención y resolución. |  
+| **Tarifa por Hora (Hourly Rate)** | Precio que cobra el trabajador por hora de trabajo. |  
+| **Campo de Especialidad (Field)** | Área técnica en la que se especializa el trabajador (ej. paneles solares, eficiencia). |  
+| **Habilidades (Skills)** | Competencias relevantes del trabajador (ej. diagnóstico de consumo). |  
+| **Disponibilidad (Availability)** | Horarios en que el trabajador puede agendar servicios. |  
+| **Presupuesto (Quote)** | Estimación del costo ofrecida al cliente; puede convertirse en una orden de servicio. |  
+| **Factura (Invoice)** | Documento fiscal final que detalla el servicio y el monto a pagar. |  
+| **Depósito en garantía (Escrow)** | Mecanismo opcional que retiene el pago hasta la confirmación del servicio. |  
+| **SLA** | Compromisos de tiempo y calidad (ej. tiempo de respuesta). |  
+| **Telemetría (Telemetry)** | Datos medidos por dispositivos (consumo, voltaje) usados para análisis. |  
+| **Desagregación (Disaggregation)** | Separar el consumo total en partes por circuito o aparato, para identificar usos y ahorrar. |  
+| **Freemium** | Modelo: funciones básicas gratis, funciones avanzadas por suscripción. |  
+| **Suscripción (Subscription)** | Pago recurrente para acceso a funciones premium y soporte. |  
+| **Prueba (Trial)** | Periodo gratuito para evaluar funciones premium. |  
+
