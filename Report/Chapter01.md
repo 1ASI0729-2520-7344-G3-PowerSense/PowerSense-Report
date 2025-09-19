@@ -20,7 +20,7 @@ Nuestra visión es convertirnos en un referente en toda Sudamérica en el desarr
 |  **Juan Carlos Pastor Napa** | Foto |
 | **Ingeniería de Software – u202217288**<br><br>**Habilidades:** Mi nombre es Juan Carlos Pastor Napa, tengo 20 años y actualmente estudio ingeniería de software en la UPC, poseo conocimientos en Python y c ++, experiencia con Hardware como tecnico, así como experiencia a servicio en una empresa y varios trabajos de la misma naturaleza, soy apasionado por el deporte, la naturaleza y por el software.  |![Foto_Juan](https://cdn.discordapp.com/attachments/836749001554395211/1416901838430670868/image.png?ex=68c8882b&is=68c736ab&hm=95fb93d3afdf38fefe84d4d8fe5dbab486266a4c70101aefecd9ec81c0acb765&)|
 |  **Sebastian Matias Escobar Palomino** | Foto |
-| **Ingeniería de Software – u202125968**<br><br>**Habilidades:** Mi nombre es Sebastián Matías Escobar Palomino, soy estudiante de Ingeniería de Software. Mi objetivo es contribuir de manera activa al trabajo en equipo, cumplir con los plazos establecidos y mantener una comunicación fluida y clara con mis compañeros, aplicando mis conocimientos para cumplir con las responsabilidades asignadas en el proyecto.  ||
+| **Ingeniería de Software – u202125968**<br><br>**Habilidades:** Mi nombre es Sebastián Matías Escobar Palomino, soy estudiante de Ingeniería de Software. Mi objetivo es contribuir de manera activa al trabajo en equipo, cumplir con los plazos establecidos y mantener una comunicación fluida y clara con mis compañeros, aplicando mis conocimientos para cumplir con las responsabilidades asignadas en el proyecto.  |![Foto_Sebastian](https://i.imgur.com/tqL3DCm.png)|
 
 
 
