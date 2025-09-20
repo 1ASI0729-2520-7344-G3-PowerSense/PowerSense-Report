@@ -108,17 +108,112 @@ Sistema modular **8 px**:
 
 ### 4.1.2. Web Style Guidelines.
 
+Para el estilo principal en el cual se va a enfocar la aplicación web y la landing page son:
+
+- Diseño minimalista y colorido La aplicación tendrá un tono minimalista para evitar llenar de información al usuario como excesiva cantidad de elementos en pantalla.
+
+- Imágenes ilustrativas Para mostrar el uso de las imágenes optamos por usar ilustraciones en cambio de las imágenes estilo fotografía, ya que estas encajan perfecto con el estilo minimalista y además de una mayor personalización.
+
+- Elementos intuitivos de interacción Los elementos de nuestra aplicación son intuitivos para brindar una mayor experiencia de usuario. Cabe recalcar que la mayoría de estos elementos estarán resaltados con los colores primarios y secundarios.
+
+- Contraste de colores Para una mayor redacción de la aplicación, tomamos en cuenta el nivel de contraste entre dos o más elementos.
+
 ## 4.2. Information Architecture.
 
 ### 4.2.1. Organization Systems.
 
+En cuanto al sistema de organización del contenido, se optó el patrón jerárquico (visal hierarchy) para organizar la información de las secciones. El tamaño de las fuentes es crucial para el usuario, donde la información más importante serán desde los textos más grandes hasta los más pequeños.
+
+Por otro lado, se utiliza categorización por audiencia para dirigirnos a postulantes y profesionales de recursos humanos, con secciones específicas para cada uno. Además, se implementa orden cronológico descendente en las entradas de la base de datos, priorizando las más recientes al principio para facilitar la consulta de los usuarios.
+
 ### 4.2.2. Labeling Systems.
+
+Para el contenido, se prioriza la reducción de textos para brindar una mejor redacción y legibilidad de estos para los usuarios.
+
+Para el uso de botones se ha optado por un estilo minimalista, donde se usarán los colores primarios como fondo y bordes redondeados.
+
+En el tema de iconos, se emplean los colores creados del sistema de diseño del equipo.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+```html
+<head>
+    <meta charset="utf-8" />
+    <title>PowerSense-LandingPage</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#4051b5" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+</head>
+```
+
 ### 4.2.4. Searching Systems.
 
+#### Estructura de Navegación Principal
+
+La navegación de PowerSense está diseñada para guiar al usuario de forma clara e intuitiva por la landing page, facilitando el acceso a la información más relevante.
+
+##### 1. Navegación de la Landing page 
+Sección principal de la página, ubicada en la parte superior. Incluye el logotipo y el menú de navegación que permite moverse rápidamente a las secciones clave.
+- **Logo PowerSense** → Enlace a inicio  
+- **Menú Principal:**  
+  - Inicio → Scroll a sección *Hero*  
+  - Cómo Funciona → Scroll a sección *Proceso 4 pasos*  
+  - Casos de Éxito → Scroll a *Testimonios y casos*  
+  - Planes → Scroll a *Precios y suscripciones*  
+  - Contacto → Scroll a *Formulario de contacto*  
+  - Sobre Nosotros → Scroll a *Información de empresa*  
+
+##### 2. Navegación de la Web Application
+
+**Aplicación Web:**
+- **Menú lateral (sidebar):** Incluye accesos a secciones principales como Dashboard, Explorar, etc.
+- **Barra superior:** Muestra íconos de notificaciones, ayuda y perfil de usuario.
+- **Breadcrumbs:** Presentes en vistas secundarias para mantener contexto.
+- **Componentes interactivos:** Botones, tarjetas, chips y enlaces mantienen consistencia en color y comportamiento.
+
+#### Técnicas de Navegación Implementadas
+
+En esta sección se describen las técnicas que mejoran la experiencia de desplazamiento del usuario dentro de la landing page.
+
+##### 1. Scroll Suave (*Smooth Scrolling*)
+Permite que el movimiento entre secciones sea fluido y agradable para el usuario.  
+- Transiciones fluidas entre secciones  
+- Duración: **300ms** con *easing* personalizado  
+- Comportamiento: `scroll-behavior: smooth`  
+
+##### 2. Navegación por Anclas
+Cada enlace del menú se conecta con una sección específica de la página mediante identificadores únicos.  
+- Cada sección tiene un **ID único** (`#home`, `#how-it-works`, etc.)  
+- Los enlaces del header apuntan a secciones específicas  
+- Scroll automático al hacer clic en enlaces  
+
 ### 4.2.5. Navigation Systems.
+
+#### Searching Systems
+
+PowerSense implementa un sistema de búsqueda sencillo que organiza la información por secciones y categorías, ayudando al usuario a encontrar rápidamente lo que necesita.
+
+##### Sistema de Búsqueda en Landing Page
+Describe cómo se facilita la exploración del contenido principal a través de la estructura de la página.  
+- **Búsqueda de contenido por secciones**  
+  - Navegación por anclas: búsqueda directa de secciones específicas  
+  - Scroll automático: lleva al usuario exactamente donde necesita  
+  - Filtros visuales: cada sección tiene un propósito específico  
+
+##### Búsqueda de Información
+Explica cómo se organiza el acceso a información más detallada, como soporte, precios o políticas.  
+- **FAQ** integrado en la sección de contacto  
+- **Búsqueda por categorías:**  
+  - Precios y Planes  
+  - Características Técnicas  
+  - Soporte y Ayuda  
+  - Información Legal  
+
 
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
