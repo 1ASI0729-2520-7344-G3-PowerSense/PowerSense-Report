@@ -20,7 +20,7 @@
 | Allcca Guerrero, Irving       | U202213241   |
 | Escobar Palomino, Sebastian   | U202125968   |
 | Gonza Morales, Anderson       | U202120836   |
-| Nuñez Soto, Andy Arturo       | U999999999   |
+| Nuñez Soto, Andy Arturo       | U20231e795   |
 | Pastor Napa, Juan             | U202217288   |
 
 </div>
