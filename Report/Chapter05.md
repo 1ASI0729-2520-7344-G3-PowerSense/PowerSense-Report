@@ -119,6 +119,22 @@ Para llevar a cabo el despliegue de la landing page, es necesario seguir ciertos
 ### **5.2.1. Sprint 1**
 En la siguiente sección se presentará el sprint #1, que incluye la versión inicial del proyecto, destacando la estructura, el diseño y los resultados obtenidos de la página de aterrizaje.
 #### **5.2.1.1. Sprint Planning 1**
+En esta sección se detallan los aspectos clave de la reunión de planificación del Sprint 1. El objetivo es garantizar que haya coherencia entre la planificación y la ejecución, alineando el Sprint Goal, las User Stories y los entregables del Sprint Backlog.
+
+| **Sprint #** | Sprint 1 |
+|---|---|
+| **Sprint Planning Background** |  |
+| **Date** | 2025-09-03 |
+| **Time** | 10:00 PM |
+| **Location** | Reunión mediante Discord |
+| **Prepared By** | Sebastian Escobar |
+| **Attendees (to planning meeting)** | Juan Pastor /Anderson Gonza/ Irving Allcca / Arturo Nuñez |
+| **Sprint 0 Review Summary** |En este sprint se estableció la visión del proyecto, se asignaron los roles del equipo y se llevó a cabo la planificación inicial de la arquitectura y el diseño de la landing page. |
+| **Sprint 0 Retrospective Summary** | El equipo reconoció la necesidad de optimizar la comunicación y la asignación de tareas, además de definir criterios claros de aceptación para los entregables. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 1 Goal** | Nuestro objetivo es desarrollar una solución tecnológica para optimizar el consumo energético en los hogares y pequeñas empresas de Lima Metropolitana. Para esta entrega, se elaborará la landing page para que los usuarios puedan conocer más sobre la aplicación, creando una página atractiva, clara y fácil de navegar, que resalte las funcionalidades principales, beneficios y cómo la plataforma puede ayudarles a reducir su consumo energético y costos.|
+| **Sprint 1 Velocity** | 20 Story Points |
+| **Sum of Story Points** | 20 |
 
 #### **5.2.1.2. Aspect Leaders and Collaborators.**
 | **Team Member (Last Name, First Name)** | **GitHub Username** | **Capítulo I: Introducción (L/C)** | **Capítulo II: Requirements Elicitation & Analysis (L/C)** | **Capítulo III: Requirements Specification (L/C)** | **Capítulo IV: Product Design (L/C)** | **Capítulo V: Product Implementation, Validation & Deployment (L/C)** |
