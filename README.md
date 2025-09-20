@@ -4,6 +4,107 @@
 
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
+#### Branding – PowerSense
+
+#### Brand Overview
+**PowerSense** es una plataforma **IoT “verde”** para **hogares y PYMEs** que permite **monitorear y optimizar** el consumo eléctrico en tiempo real. Integra **sensores y actuadores inteligentes** con **IA** para detectar ineficiencias, recomendar acciones y automatizar encendidos/apagados, reduciendo **costos** y **huella de carbono**. Se posiciona como una solución **confiable, moderna y accesible** para Lima y, progresivamente, Sudamérica.
+
+#### Misión
+Empoderar a hogares y PYMEs para **gastar menos energía** sin perder confort ni productividad, ofreciendo herramientas simples, basadas en **datos reales**, que conviertan el consumo eléctrico en **ahorros medibles**.
+
+#### Visión
+Ser la **plataforma líder en Sudamérica** en **eficiencia energética inteligente**, impulsando ciudades más sostenibles mediante tecnología IoT y analítica clara y accionable.
+
+#### Brand Name
+**PowerSense** combina *Power* (energía) y *Sense* (sensar/entender): **medir, comprender y optimizar** el uso de la energía de forma simple y automatizada.
+
+#### Logotipo
+![Logo de PowerSense](https://imgur.com/oWeUQ6Y.png)
+
+
+
+#### Colores (HEX)
+
+> Paleta orientada a sostenibilidad y claridad de lectura; acentos verdes para acciones clave y **violeta muy claro** para superficies suaves.
+
+![Colores de PowerSense](https://imgur.com/zgbTEmS.png)
+
+### Principales
+- **Primary / Verde Power:** `#48AF6A`  
+- **CTA / Verde Acción:** `#46AE09`  
+- **Base / Blanco:** `#FFFFFF`
+
+### Secundarios & Superficies
+- **Superficie Suave (violeta muy claro):** `#E6E9F7`  
+- **Verde Suave Acento:** `#DCEED4`  
+- **Verde Pastel Acento:** `#C1E4AD`
+
+### Interacción & Links
+- **Link / Menú Verde:** `#60B92B`
+
+### Texto
+- **Heading / Verde Muy Oscuro:** `#112310` (alt. `#1E301F`)  
+- **Copy / Gris Párrafo:** `#616E67` (alt. `#6E7672`)  
+- **Texto invertido (sobre CTA/oscuro):** `#FFFFFF`
+
+#### Tipografía
+
+![Tipografía de PowerSense](https://imgur.com/j8Ye9hI.png)
+
+**Familia:** **Inter** (sans-serif), por su legibilidad y neutralidad en interfaces.
+
+### Jerarquías
+
+| Jerarquía             | Tamaño | Altura de línea | Peso     | Uso sugerido |
+|-----------------------|:------:|:---------------:|----------|--------------|
+| Heading 1             | 48 px  | 60 px           | Bold     | Héroe, métricas clave |
+| Heading 2             | 32 px  | 42 px           | Semibold | Secciones |
+| Heading 3             | 20 px  | 30 px           | Medium   | Subsecciones, cards |
+| Heading 4             | 16 px  | 24 px           | Medium   | Etiquetas, mini-títulos |
+| Large Text Bold       | 20 px  | 30 px           | Bold     | KPIs/llamadas |
+| Medium Text Regular   | 18 px  | 28 px           | Regular  | Párrafos destacados |
+| Normal Text Regular   | 16 px  | 24 px           | Regular  | Párrafo base |
+| Small Text Regular    | 14 px  | 20 px           | Regular  | Ayudas, disclaimers |
+
+**Aplicación de color tipográfico**
+- Títulos: `#112310`  
+- Párrafos: `#616E67`  
+- Enlaces: `#60B92B`  
+- Texto en CTA/superficies oscuras: `#FFFFFF`
+
+
+
+#### Spacing & Layout
+
+Sistema modular **8 px**:
+- **Secciones:** 32 px  
+- **Padding contenedores:** 24 px  
+- **Gap entre controles:** 16 px  
+- **Padding interno de tarjetas:** 12 px  
+
+**Superficies recomendadas**
+- Fondo principal: `#FFFFFF`  
+- Tarjetas / bloques destacados: `#E6E9F7`  
+- Secciones alternas: `#DCEED4`, `#C1E4AD`
+
+
+
+#### Tono de comunicación
+- **Personalidad:** Profesional, cercana y orientada a impacto.  
+- **Tono emocional:** Optimista y responsable (ahorro + sostenibilidad).  
+- **Lenguaje:** Claro, directo.  
+- **Relación con el usuario:** Didáctica y empática, enfatizando **ahorro** y reducción de emisiones.
+
+
+
+#### Uso rápido (componentes)
+
+- **Botón primario (CTA):** fondo `#46AE09`, texto `#FFFFFF` (hover: oscurecer 8–12%).  
+- **Botón secundario:** borde `#48AF6A`, texto `#48AF6A`, fondo `transparent` (hover: `#DCEED4`).  
+- **Card:** fondo `#E6E9F7`, títulos `#112310`, texto `#616E67`.  
+- **Links / Nav:** `#60B92B` con subrayado al hover.  
+- **Badges / Chips:** fondo `#C1E4AD`, texto `#112310`.
+
 
 ### 4.1.2. Web Style Guidelines.
 
