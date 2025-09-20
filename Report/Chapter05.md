@@ -201,3 +201,10 @@ Para este proyecto se usaron herramientas como WebStorm y Git. La landing page s
 #### **Bibliografia**
 
 #### **Anexo**
+1. **Despliegue del Landing Page:** [Landing Page](https://rococo-sprite-66ce8b.netlify.app/)
+2. **Link de la organización :** [Organización](https://github.com/1ASI0729-2520-7344-G3-PowerSense)
+5. **Link del repositorio del Reporte :** [Repositorio Reporte](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report)
+6. **Link del repositorio de la Landing Page :** [Repositorio LandingPage](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page)
+9. **Figma con los User Flow Diagrams, wireframes y mockups de la landing page:** [Figma]()
+13. **2.2.2. Registro de entrevistas:** [Entrevistas]()
+15. **Video de exposición:**[ Video de la exposicion]()
