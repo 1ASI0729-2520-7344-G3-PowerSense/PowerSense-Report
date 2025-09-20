@@ -145,7 +145,9 @@ En esta sección se detallan los aspectos clave de la reunión de planificación
 | **Anderson Gonza Morales**                        | Ander-U         | **C**                              | **C**                                                      | **C**                                              | **L**                                 | **C**                                                                 |
 | **Sebastian Escobar Palomino**                    | sebasepe               | **C**                              | **C**                                                      | **C**                                              | **C**                                 | **L**                                                                 |
 #### **5.2.1.3. Sprint Backlog 1**
+En el primer sprint, el equipo se enfocó en crear una landing page tanto atractiva como funcional, asignando las tareas mediante el tablero de Sprint según las habilidades de cada miembro.
 #### **5.2.1.4. Development Evidence for Sprint Review**
+
 #### **5.2.1.5. Execution Evidence for Sprint Review**
 En el Sprint 1 se desarrollaron, diseñaron e implementaron las secciones de la landing page, donde los usuarios pueden obtener información sobre la startup y el producto que se ofrecerá. A continuación, se muestran las evidencias.
 
