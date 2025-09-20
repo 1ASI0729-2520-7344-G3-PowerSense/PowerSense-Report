@@ -71,6 +71,50 @@ Adoptaremos buenas prácticas en el código para asegurar que sea consistente y 
 * El margen (margin) y el relleno (padding) de todos los elementos deben establecerse en 0.
 
 ### **5.1.4. Software Deployment Configuration**
+Para llevar a cabo el despliegue de la landing page, es necesario seguir ciertos pasos específicos. Se requiere una estructura organizada y un repositorio. Una vez que se cuente con estos elementos, se podrá iniciar el proceso de despliegue de la landing page. A continuación, se detallan los pasos a seguir:
+
+1. Conectar GitHub con Netlify
+- Lo primero que hicimos fue ir a [Netlify](https://www.netlify.com/) y crear una cuenta (o iniciar sesión si ya teníamos una).
+- Luego, en el panel principal, hicimos clic en **"New Site from Git"**.
+- Seleccionamos **GitHub** como la opción de repositorio.
+- Autoricé a Netlify para que accediera a nuestra cuenta de GitHub y buscara el repositorio donde teníamos nuestro proyecto Angular.
+- Encontramos el repositorio y lo seleccionamos para conectar Netlify con él.
+
+2. Configurar el Build en Netlify
+- En la sección de **Build Settings**, configuramos lo siguiente:
+  - **Branch to deploy**: Elegimos la rama `main` (que es donde teníamos el código).
+  - **Build Command**: Escribimos `ng build --prod`, que es el comando de Angular para hacer el build de producción.
+  - **Publish Directory**: Especificamos la carpeta `dist/mi-proyecto`, que es donde Angular coloca los archivos listos para producción después del build.
+
+3. Desplegar el Proyecto
+- Después de configurar, simplemente hicimos clic en **Deploy Site**.
+- Netlify comenzó a construir y desplegar el proyecto. Este proceso tardó unos minutos.
+- Cuando terminó, Netlify nos dio un enlace con el sitio desplegado.
+
+4. Verificar el Despliegue
+- Abrimos el enlace proporcionado por Netlify y verificamos que nuestra aplicación Angular estaba funcionando perfectamente en línea.
+- ¡Todo se veía genial y listo para usarse!
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/p5ypnj9.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/wx8QMdO.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/5daKrgu.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/H417XHb.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/tubB5I0.png" width="90%" />
+</div>
+
 ## **5.2. Landing Page, Services & Applications Implementation**
 ### **5.2.1. Sprint 1**
 #### **5.2.1.1. Sprint Planning 1**
