@@ -419,3 +419,5 @@ Descripción: Capa de persistencia que gestiona la comunicación con la base de 
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
+
+![Database Diagram](https://imgur.com/PhPuPGs.png)
