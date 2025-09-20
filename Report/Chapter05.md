@@ -36,8 +36,8 @@ Para el desarrollo de nuestro proyecto, adoptaremos el flujo de trabajo propuest
 
 # Repositorio en GitHub
 
-* Repositorio: [Repositorio]()
-* Landing Page: [Landing Page]()
+* Repositorio: [Repositorio](https://github.com/orgs/1ASI0729-2520-7344-G3-PowerSense/repositories)
+* Landing Page: [Landing Page](https://rococo-sprite-66ce8b.netlify.app/)
 
 # Flujo de trabajo GitFlow
 
@@ -117,13 +117,87 @@ Para llevar a cabo el despliegue de la landing page, es necesario seguir ciertos
 
 ## **5.2. Landing Page, Services & Applications Implementation**
 ### **5.2.1. Sprint 1**
+En la siguiente sección se presentará el sprint #1, que incluye la versión inicial del proyecto, destacando la estructura, el diseño y los resultados obtenidos de la página de aterrizaje.
 #### **5.2.1.1. Sprint Planning 1**
+
 #### **5.2.1.2. Aspect Leaders and Collaborators.**
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Capítulo I: Introducción (L/C)** | **Capítulo II: Requirements Elicitation & Analysis (L/C)** | **Capítulo III: Requirements Specification (L/C)** | **Capítulo IV: Product Design (L/C)** | **Capítulo V: Product Implementation, Validation & Deployment (L/C)** |
+| --------------------------------------- | ------------------- | ---------------------------------- | ---------------------------------------------------------- | -------------------------------------------------- | ------------------------------------- | --------------------------------------------------------------------- |
+| **Irving Allca**                   | noway-evitern17        | **L**                              | **C**                                                      | **C**                                              | **C**                                 | **C**                                                                 |
+| **Juan Pastor Napa**          | ElKiwi1271        | **C**                              | **L**                                                      | **C**                                              | **C**                                 | **C**                                                                 |
+| **Andy Arturo Nuñez Soto**          |arturo-ns           | **C**                              | **C**                                                      | **L**                                              | **C**                                 | **C**                                                                 |
+| **Anderson Gonza Morales**                        | Ander-U         | **C**                              | **C**                                                      | **C**                                              | **L**                                 | **C**                                                                 |
+| **Sebastian Escobar Palomino**                    | sebasepe               | **C**                              | **C**                                                      | **C**                                              | **C**                                 | **L**                                                                 |
 #### **5.2.1.3. Sprint Backlog 1**
 #### **5.2.1.4. Development Evidence for Sprint Review**
 #### **5.2.1.5. Execution Evidence for Sprint Review**
+En el Sprint 1 se desarrollaron, diseñaron e implementaron las secciones de la landing page, donde los usuarios pueden obtener información sobre la startup y el producto que se ofrecerá. A continuación, se muestran las evidencias.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/D8VAjaU.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/KEk6XLo.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/g0cTqJL.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/DgkdQiF.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/bpD8zHJ.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/PAdL4Bk.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/EwpbPdB.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/JxfaWFt.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/RUGK2nz.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/qwgaMPn.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/nLC9u16.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ljFAIBC.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/96cZc2a.png" width="90%" />
+</div>
+
 #### **5.2.1.6. Services Documentation Evidence for Sprint Review**
 #### **5.2.1.7. Software Deployment Evidence for Sprint Review**
 #### **5.2.1.8. Team Collaboration Insights during Sprint**
+Para este proyecto se usaron herramientas como WebStorm y Git. La landing page se dividió en secciones asignadas a cada miembro del equipo, y al final, un integrante integró todas las contribuciones para consolidar el producto final
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ZrAz2Ls.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ZlLWjTf.png" width="90%" />
+</div>
+
 #### **Bibliografia**
+
 #### **Anexo**
