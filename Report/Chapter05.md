@@ -146,7 +146,45 @@ En esta sección se detallan los aspectos clave de la reunión de planificación
 | **Sebastian Escobar Palomino**                    | sebasepe               | **C**                              | **C**                                                      | **C**                                              | **C**                                 | **L**                                                                 |
 #### **5.2.1.3. Sprint Backlog 1**
 En el primer sprint, el equipo se enfocó en crear una landing page tanto atractiva como funcional, asignando las tareas mediante el tablero de Sprint según las habilidades de cada miembro.
+
+| Sprint # | User Story ID | Título                       | Descripción                                                                                                                                          | Estimación (Horas) | Asignado a                        | Estado (To-do/InProcess/To-Review/Done) |
+|----------|---------------|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|----------------------------------|---------------------------------------|
+| Sprint 1 | HU1           | Información general del producto | Implementar la sección que proporciona información clara sobre la plataforma de optimización energética y sus beneficios.                              | 4                  | Irving Allcca Guerrero           | Done                                  |
+| Sprint 1 | HU1           | Visualización de funcionalidades | Desarrollar la interfaz que muestre las funcionalidades del sistema como monitoreo de consumo, reportes y alertas.                                    | 4                  | Sebastián Escobar Palomino      | Done                                  |
+| Sprint 1 | HU1           | Recomendaciones para ahorrar energía | Implementar sección de recomendaciones simples sobre cómo reducir el consumo energético.                                                           | 3                  | Irving Allcca Guerrero           | Done                                  |
+| Sprint 1 | HU1           | Llamada a la acción           | Crear botones destacados para registrar, iniciar sesión o solicitar más información.                                                                 | 2                  | Anderson Gonza Morales          | Done                                  |
+| Sprint 1 | HU2           | Casos de éxito                | Desarrollar la sección de testimonios con casos de éxito sobre ahorro energético en hogares.                                                        | 4                  | Sebastián Escobar Palomino      | Done                                  |
+| Sprint 1 | HU2           | Filtrado por tipo de usuario  | Implementar la funcionalidad de filtrado para mostrar solo casos de éxito relevantes para el tipo de usuario hogar.                                  | 3                  | Juan Pastor Napa                | Done                                  |
+| Sprint 1 | HU2           | Llamada a la acción           | Añadir botones destacados para registrarse o solicitar más información al final de la página de casos de éxito.                                      | 2                  | Sebastián Escobar Palomino      | Done                                  |
+| Sprint 1 | HU3           | Planes y precios              | Desarrollar la sección con una tabla comparativa de planes: Básico, Pro, Empresarial.                                                                | 4                  | Irving Allcca Guerrero           | Done                                  |
+| Sprint 1 | HU3           | Visualización de características | Crear la visualización detallada de las características de cada plan en la tabla comparativa.                                                         | 4                  | Anderson Gonza Morales          | Done                                  |
+| Sprint 1 | HU3           | Plan destacado                | Resaltar el plan más popular o recomendado visualmente en la tabla de planes.                                                                        | 2                  | Sebastián Escobar Palomino      | Done                                  |
+| Sprint 1 | HU3           | Selección de plan             | Implementar los botones para seleccionar un plan y redirigir al formulario de registro.                                                             | 3                  | Juan Pastor Napa                | Done                                  |
+| Sprint 1 | HU3           | Responsividad                 | Asegurar que la tabla comparativa se vea correctamente en dispositivos móviles, tabletas y PC.                                                       | 3                  | Irving Allcca Guerrero           | Done                                  |
+| Sprint 1 | HU4           | Cómo Funciona                 | Desarrollar la sección "Cómo funciona" con el desglose del proceso, incluyendo monitoreo de consumo y dispositivos inteligentes.                       | 4                  | Sebastián Escobar Palomino      | Done                                  |
+| Sprint 1 | HU4           | Explicación de las funcionalidades | Crear una explicación paso a paso sobre el uso de la plataforma: creación de perfil, conexión de dispositivos, etc.                                   | 4                  | Andy Arturo Nuñez Soto          | Done                                  |
+| Sprint 1 | HU4           | Visualización de resultados   | Implementar ejemplos visuales de reportes generados, alertas y recomendaciones de optimización.                                                     | 3                  | Anderson Gonza Morales          | Done                                  |
+| Sprint 1 | HU4           | Llamada a la acción           | Añadir botones de acción como "Ver planes" o "Comienza ahora".                                                                                       | 2                  | Sebastián Escobar Palomino      | Done                                  |
+| Sprint 1 | HU5           | Contacto                      | Implementar un formulario de contacto para que los usuarios puedan obtener más información o hacer preguntas.                                         | 4                  | Juan Pastor Napa                | Done                                  |
+| Sprint 1 | HU5           | Validación de campos obligatorios | Implementar validación para asegurar que los campos obligatorios (nombre y correo electrónico) sean completados.                                      | 3                  | Irving Allcca Guerrero           | Done                                  |
+| Sprint 1 | HU5           | Envío exitoso del formulario   | Crear el flujo para enviar el formulario y mostrar un mensaje de confirmación.                                                                       | 2                  | Sebastián Escobar Palomino      | Done                                  |
+| Sprint 1 | HU5           | Notificación interna          | Implementar el sistema de notificación interna al equipo de soporte o ventas para dar seguimiento.                                                  | 3                  | Andy Arturo Nuñez Soto          | Done                                  |
+| Sprint 1 | HU5           | Redirección a la página principal | Añadir la opción de regresar a la página principal o a la sección de "Planes" después de enviar el formulario.                                         | 2                  | Anderson Gonza Morales          | Done                                  |
+
 #### **5.2.1.4. Development Evidence for Sprint Review**
+
+| Repository                                                      | Branch  | Commit Id | Commit Message                                                                                                  | Commit Message Body | Committed on (Date) |
+| --------------------------------------------------------------- | ------- | --------- | ---------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------- |
+|1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page | develop | arturo-ns | feat: Update Footer                                                                                                | -                   | Sep 13, 2025        |
+|1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page  | develop | arturo-ns | feat: Update Footer                                                                                                | -                   | Sep 13, 2025        |
+| 1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page | develop | arturo-ns | feat: Update Footer                                                                                                | -                   | Sep 13, 2025        |
+|1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page  | develop | arturo-ns | feat: Update Footer                                                                                                | -                   | Sep 13, 2025        |
+| 1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page | develop | sebasepe  | feat(landing-page): add components for landing page                                                                | -                   | Sep 4, 2025         |
+| 1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page | develop | sebasepe  | chore: remove unnecessary folders                                                                                  | -                   | Sep 4, 2025         |
+| 1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page| develop | sebasepe  | chore: remove README                                                                                                | -                   | Sep 4, 2025         |
+| 1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page | develop | sebasepe  | Add files via upload                                                                                              | -                   | Sep 4, 2025         |
+| 1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page | develop | sebasepe  | Create README.md                                                                                                  | -                   | Aug 28, 2025        |
+
 
 #### **5.2.1.5. Execution Evidence for Sprint Review**
 En el Sprint 1 se desarrollaron, diseñaron e implementaron las secciones de la landing page, donde los usuarios pueden obtener información sobre la startup y el producto que se ofrecerá. A continuación, se muestran las evidencias.
@@ -204,7 +242,46 @@ En el Sprint 1 se desarrollaron, diseñaron e implementaron las secciones de la 
 </div>
 
 #### **5.2.1.6. Services Documentation Evidence for Sprint Review**
+ **Pasos para realizar la Landing Page de la Plataforma de Optimización Energética:**
+
+1. **Acceder a la sección “Información general del producto”**: 
+   - Como visitante, navega hacia la sección de “Información del producto” para entender cómo la plataforma puede ayudarte a reducir el consumo energético y ahorrar en tus facturas.
+
+2. **Mostrar funcionalidades principales de la plataforma**: 
+   - Presenta de manera clara las funcionalidades clave como el monitoreo en tiempo real, reportes energéticos y alertas para optimizar el consumo energético en el hogar.
+
+3. **Ofrecer recomendaciones de ahorro energético**: 
+   - Agrega una sección con consejos prácticos para ahorrar energía, como la optimización de dispositivos y el ajuste de hábitos de consumo.
+
+4. **Agregar testimonios y casos de éxito**: 
+   - Incluye testimonios visuales de marcas e influencers que hayan tenido éxito utilizando la plataforma, como ejemplos de ahorro energético real.
+
+5. **Destacar los planes y precios de la plataforma**: 
+   - Asegúrate de que la sección de “Planes y precios” muestre de manera clara los diferentes planes disponibles (Básico, Pro y Empresarial), con información sobre características y precios.
+
+6. **Incluir una sección de “¿Cómo funciona?”**: 
+   - Desglosa de forma simple y visual cómo funciona la plataforma, incluyendo los pasos para crear una cuenta, conectar dispositivos y obtener reportes de consumo energético.
+
+7. **Habilitar contacto directo con el equipo de soporte**: 
+   - Implementa un formulario de contacto para que los usuarios puedan enviar preguntas o comentarios, conectando con el equipo de soporte de la plataforma.
+
+8. **Verificación de funcionalidades**: 
+   - Realiza pruebas para asegurarte de que todos los botones, enlaces y formularios funcionen correctamente. Verifica que la información se muestre correctamente en todos los dispositivos.
+
+9. **Responsividad y adaptación a dispositivos móviles**: 
+   - Asegúrate de que la página sea completamente responsiva y se vea correctamente tanto en PC como en dispositivos móviles (smartphones y tablets).
+
+10. **Llamada a la acción**: 
+    - Asegúrate de que las llamadas a la acción estén bien visibles en cada sección, con botones de “Registrarse”, “Ver cómo funciona” o “Ver planes”.
+
+
 #### **5.2.1.7. Software Deployment Evidence for Sprint Review**
+Se empleó Netlify para publicar la landing page, lo que facilitó el despliegue del sitio. A continuación, se proporciona el enlace a la landing page: [Landing Page](https://rococo-sprite-66ce8b.netlify.app/)
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/krnAWFe.png" width="90%" />
+</div>
+
 #### **5.2.1.8. Team Collaboration Insights during Sprint**
 Para este proyecto se usaron herramientas como WebStorm y Git. La landing page se dividió en secciones asignadas a cada miembro del equipo, y al final, un integrante integró todas las contribuciones para consolidar el producto final
 
@@ -223,6 +300,6 @@ Para este proyecto se usaron herramientas como WebStorm y Git. La landing page s
 2. **Link de la organización :** [Organización](https://github.com/1ASI0729-2520-7344-G3-PowerSense)
 5. **Link del repositorio del Reporte :** [Repositorio Reporte](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report)
 6. **Link del repositorio de la Landing Page :** [Repositorio LandingPage](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page)
-9. **Figma con los User Flow Diagrams, wireframes y mockups de la landing page:** [Figma]()
-13. **2.2.2. Registro de entrevistas:** [Entrevistas]()
+9. **Figma con los User Flow Diagrams, wireframes y mockups de la landing page:** [Figma](https://www.figma.com/design/6zsotpbkoOZH0xcz69YyCU/Mock-Upc?node-id=0-1&t=svzqcosOPQg0VdcE-1)
+13. **2.2.2. Registro de entrevistas:** [Entrevistas](https://www.youtube.com/watch?v=mx5nMZDKNeg)
 15. **Video de exposición:**[ Video de la exposicion]()
