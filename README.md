@@ -242,6 +242,13 @@ A continuación los Mock ups, estos son los modelos de diseño que se utilizará
 
 ### 4.4.2. Web Applications Mock-ups.
 
+Enlace para acceder a los Mockups en Figma: [FIGMA](https://www.figma.com/design/6zsotpbkoOZH0xcz69YyCU/Mock-Upc?node-id=0-1&p=f&t=cClrOXvLgaL6N2Nu-0)
+
+<img src="https://i.imgur.com/kngYX75.png">
+<img src="https://i.imgur.com/MnjlvQg.png[/img]">
+<img src="https://i.imgur.com/t6p3fhh.png[/img]">
+<img src="https://i.imgur.com/wsJ0cxd.png[/img]">
+<img src="https://i.imgur.com/QOmePg2.png[/img]">
 ### 4.4.3. Web Applications User Flow Diagrams.
 
 ## 4.5. Web Applications Prototyping.
