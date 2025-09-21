@@ -154,6 +154,8 @@ Duración: 3:58
 **Resumen de Entrevista :**
 A partir de la entrevista realizada al usuario Tomas Tobias Teodoro Dextre Sanchez, de 22 años y residente de Surco, se identificó que el entrevistado, vinculado a un negocio de comida rápida, señala que la principal carga proviene de equipos de frío y de cocina y que existen picos en días de mayor demanda. Expresa que carecen de datos granulares y métricas en tiempo real para relacionar ventas, horarios y consumo, y que valorarían una solución con monitoreo continuo, alarmas tempranas y capacidad para gestionar cargas no críticas en momentos de tensión. Recalca que cualquier inversión debe estar alineada a un retorno razonable y que la protección del inventario es prioritaria.
 
+Link de las Entrevistas : [Entrevistas](https://www.youtube.com/watch?v=mx5nMZDKNeg)
+
 ### 2.2.3. Análisis de entrevistas
 
 **Segmento 01 (hogares y usuarios domésticos) :** Observamos que los entrevistados reportan incrementos periódicos en el gasto energético sin que se identifique una causa clara y verificable que explique dichas variaciones. Los datos que reciben, como la boleta y las lecturas del medidor, no son suficientemente detallados ni intuitivos para relacionarlos con el uso real de los equipos, lo que genera desconfianza y sensación de opacidad. Además, existe escasa formación en gestión energética: muchos participantes reconocen no tener conocimientos técnicos para interpretar consumos eléctricos ni para evaluar estrategias de ahorro más sofisticadas. Las medidas que aplican suelen ser reactivas y de bajo impacto.
