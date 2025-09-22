@@ -10,8 +10,8 @@
 <p align="center">Desarrollo de Aplicaciones Open Source - 1ASI0729</p>
 <p align="center">Sección: 7344</p>
 <p align="center"><strong>Nombre del profesor: Ivan Robles Fernández</strong></p>
-<p align="center"><strong>Nombre del startup:</strong> Powersense</p>
-<p align="center"><strong>Nombre del producto:</strong> </p>
+<p align="center"><strong>Nombre del startup:</strong> SODA </p>
+<p align="center"><strong>Nombre del producto:</strong> Powersense<p>
 <p align="center"><strong>Team members:</strong></p>
 
 <div align="center">
@@ -31,11 +31,125 @@
 # Registro de versiones del informe
 | Versión | Fecha      | Autor             | Descripción de modificación                                                                                                                                                                                                                                                                                       |
 | ------- | ---------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| TB1    | --/09/2025 | Powersense | En esta primera entrega se han incluido los capítulos:<br>• **Capítulo I:** Introducción<br>• **Capítulo II:** Requirements Elicitation & Analysis<br>• **Capítulo III:** Requirements Specification<br>• **Capítulo IV:** Product Design<br>• **Capítulo V:** Product Implementation, Validation & Deployment |
+| TB1    | 19/09/2025 | Powersense | En esta primera entrega se han incluido los capítulos:<br>• **Capítulo I:** Introducción<br>• **Capítulo II:** Requirements Elicitation & Analysis<br>• **Capítulo III:** Requirements Specification<br>• **Capítulo IV:** Product Design<br>• **Capítulo V:** Product Implementation, Validation & Deployment |
+# Project Report Collaboration Insights
+Enlace al repositorio para el informe del proyecto (Github): [PowerSense](hhttps://github.com/orgs/1ASI0729-2520-7344-G3-PowerSense/repositories)
+
+## TB1 
+Los contenidos se asignaron en formato Markdown, utilizando "Conventional Commits" para registrar el progreso. Se subieron recursos e imágenes a la carpeta "assets" de cada rama, y se realizaron reuniones para coordinar el avance del Sprint 1, centrado en el desarrollo de la Landing Page.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/c6GkfYx.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/WvbQ6sF.png" width="100%" />
+</div>
 
 # Contenido
 ## Tabla de contenidos
+- [**Project Report Collaboration Insights**](#project-report-collaboration-insights)
+- [**Contenido**](#contenido)
+  - [**Tabla de contenidos**](#tabla-de-contenidos)
+- [**Student Outcome**](#student-outcome)
+- [**Capítulo I: Introducción**](#capítulo-i-introducción)
+  - [**1.1. Startup Profile**](#11-startup-profile)
+    - [**1.1.1. Descripción de la Startup**](#111-descripción-de-la-startup)
+    - [**1.1.2. Perfiles de integrantes del equipo**](#112-perfiles-de-integrantes-del-equipo)
+  - [**1.2. Solution Profile**](#12-solution-profile)
+    - [**1.2.1. Antecedentes y problemática**](#121-antecedentes-y-problemática)
+  - [**1.2.2. Lean UX Process**](#122-lean-ux-process)
+    - [**1.2.2.1. Lean UX Problem Statements**](#1221-lean-ux-problem-statements)
+    - [**1.2.2.2. Lean UX Assumptions**](#1222-lean-ux-assumptions)
+    - [**1.2.2.3. Lean UX Hypothesis Statements**](#1223-lean-ux-hypothesis-statements)
+      - [**Hypothesis Statement 01**](#hypothesis-statement-01)
+      - [**Hypothesis Statement 02**](#hypothesis-statement-02)
+      - [**Hypothesis Statement 03**](#hypothesis-statement-03)
+      - [**Hypothesis Statement 04**](#hypothesis-statement-04)
+      - [**1.2.2.4. Lean UX Canvas**](#1224-lean-ux-canvas)
+  - [**1.3. Segmentos objetivos**](#13-segmentos-objetivos)
+- [**Capítulo II: Requirements Elicitation \& Analysis**](#capítulo-ii-requirements-elicitation--analysis)
+  - [**2.1. Competidores**](#21-competidores)
+  - [**2.1.2. Estrategias y tácticas frente a competidores**](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [**2.2. Entrevistas**](#22-entrevistas)
+    - [**2.2.1. Diseño de entrevistas**](#221-diseño-de-entrevistas)
+  - [**Diseño de entrevista – Primer segmento objetivo: Empresas**](#diseño-de-entrevista--primer-segmento-objetivo-empresas)
+  - [**Diseño de entrevista – Segundo segmento objetivo: Influencers**](#diseño-de-entrevista--segundo-segmento-objetivo-influencers)
+    - [**2.2.2. Registro de entrevistas**](#222-registro-de-entrevistas)
+  - [**Entrevista para el Segmento Objetivo 1 - Empresas :**](#entrevista-para-el-segmento-objetivo-1---empresas-)
+  - [**Entrevista para el Segmento Objetivo 2 - Influencer:**](#entrevista-para-el-segmento-objetivo-2---influencer)
+    - [**2.2.3. Análisis de entrevistas**](#223-análisis-de-entrevistas)
+  - [**2.3. Needfinding**](#23-needfinding)
+    - [**2.3.1. User Personas**](#231-user-personas)
+    - [**2.3.2. User Task Matrix**](#232-user-task-matrix)
+  - [**Perfil 1: Trabaja en una startup o agencia**](#perfil-1-trabaja-en-una-startup-o-agencia)
+  - [**Perfil 2: Creador de contenido independiente**](#perfil-2-creador-de-contenido-independiente)
+    - [**2.3.3. User Journey Mapping**](#233-user-journey-mapping)
+    - [**2.3.4. Empathy Mapping**](#234-empathy-mapping)
+    - [**2.3.5. As-is Scenario Mapping**](#235-as-is-scenario-mapping)
+  - [**2.4. Ubiquitous Language**](#24-ubiquitous-language)
+- [**Capítulo III: Requirements Specification**](#capítulo-iii-requirements-specification)
+  - [**3.1. To-Be Scenario Mapping**](#31-to-be-scenario-mapping)
+  - [**3.2. User Stories**](#32-user-stories)
+    - [**Epic 1: Búsqueda y Selección de Influencers**](#epic-1-búsqueda-y-selección-de-influencers)
+    - [**Epic 2: Dashboard Personalizado y Reputación**](#epic-2-dashboard-personalizado-y-reputación)
+    - [**Epic 3: Visualización de Perfiles de Usuario**](#epic-3-visualización-de-perfiles-de-usuario)
+    - [**Epic 4: Landing page**](#epic-4-landing-page)
+    - [**Epic 5: Autenticación**](#epic-5-autenticación)
+  - [**3.3. Impact Mapping**](#33-impact-mapping)
+  - [**3.4. Product Backlog**](#34-product-backlog)
+- [**Capítulo IV: Product Design**](#capítulo-iv-product-design)
+  - [**4.1. Style Guidelines**](#41-style-guidelines)
+    - [**4.1.1. General Style Guidelines**](#411-general-style-guidelines)
+    - [**4.1.2. Web Style Guidelines**](#412-web-style-guidelines)
+      - [**Imágenes**](#imágenes)
+      - [**Botones**](#botones)
+  - [**4.2. Information Architecture**](#42-information-architecture)
+    - [**4.2.1. Organization Systems**](#421-organization-systems)
+    - [**4.2.2. Labeling Systems**](#422-labeling-systems)
+    - [**4.2.3. SEO Tags and Meta Tags**](#423-seo-tags-and-meta-tags)
+    - [**4.2.4. Searching Systems**](#424-searching-systems)
+    - [**4.2.5. Navigation Systems**](#425-navigation-systems)
+  - [**4.3. Landing Page UI Design**](#43-landing-page-ui-design)
+    - [**4.3.1. Landing Page Wireframe**](#431-landing-page-wireframe)
+    - [**4.3.2. Landing Page Mock-up**](#432-landing-page-mock-up)
+  - [**4.4. Diseño UX/UI de Aplicaciones Web**](#44-diseño-uxui-de-aplicaciones-web)
+    - [**4.4.1. Wireframes de Aplicaciones Web**](#441-wireframes-de-aplicaciones-web)
+    - [**4.4.2. Web Applications Wireflow Diagrams**](#442-web-applications-wireflow-diagrams)
+  - [**4.4. Diseño UX/UI de Aplicaciones Web**](#44-diseño-uxui-de-aplicaciones-web-1)
+    - [**4.4.1. Mockups de Aplicaciones Web**](#441-mockups-de-aplicaciones-web)
+    - [**4.4.4. Web Applications User Flow Diagrams**](#444-web-applications-user-flow-diagrams)
+  - [**4.5. Web Applications Prototyping**](#45-web-applications-prototyping)
+  - [**4.6. Domain-Driven Software Architecture**](#46-domain-driven-software-architecture)
+    - [**4.6.1. Software Architecture Context Diagram**](#461-software-architecture-context-diagram)
+    - [**4.6.2. Software Architecture Container Diagrams**](#462-software-architecture-container-diagrams)
+    - [**4.6.3. Software Architecture Components Diagram**](#463-software-architecture-components-diagrams)
+  - [**4.7. Software Object-Oriented Design**](#47-software-object-oriented-design)
+    - [**4.7.1. Class Diagrams**](#471-class-diagrams)
+    - [**4.7.2. Class Dictionary**](#472-class-dictionary)
+  - [**4.8. Database Design**](#48-database-design)
+    - [**4.8.1. Database Diagra**](#481-database-diagram)
+- [**Capítulo V: Product Implementation, Validation \& Deployment**](#capítulo-v-product-implementation-validation--deployment)
+  - [**5.1. Software Configuration Management**](#51-software-configuration-management)
+    - [**5.1.1. Software Development Environment Configuration**](#511-software-development-environment-configuration)
+    - [**5.1.2. Source Code Management**](#512-source-code-management)
+    - [**5.1.3. Source Code Style Guide \& Conventions**](#513-source-code-style-guide--conventions)
+    - [**5.1.4. Software Deployment Configuration**](#514-software-deployment-configuration)
+  - [**5.2. Landing Page, Services \& Applications Implementation**](#52-landing-page-services--applications-implementation)
+    - [**5.2.1. Sprint 1**](#521-sprint-1)
+      - [**5.2.1.1. Sprint Planning 1**](#5211-sprint-planning-1)
+      - [**5.2.1.2. Aspect Leaders and Collaborators.**](#5212-aspect-leaders-and-collaborators)
+      - [**5.2.1.3. Sprint Backlog 1**](#5213-sprint-backlog-1)
+      - [**5.2.1.4. Development Evidence for Sprint Review**](#5214-development-evidence-for-sprint-review)
+      - [**5.2.1.5. Execution Evidence for Sprint Review**](#5215-execution-evidence-for-sprint-review)
+      - [**5.2.1.6. Services Documentation Evidence for Sprint Review**](#5216-services-documentation-evidence-for-sprint-review)
+      - [**5.2.1.7. Software Deployment Evidence for Sprint Review**](#5217-software-deployment-evidence-for-sprint-review)
+      - [**5.2.1.8. Team Collaboration Insights during Sprint**](#5218-team-collaboration-insights-during-sprint)
+      - [**Conclusiones**](#conclusiones)
+      - [**Bibliografia**](#bibliografia)
+      - [**Anexo**](#anexo)
 ## Student Outcome
+
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
