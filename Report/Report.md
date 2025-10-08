@@ -971,7 +971,31 @@ A continuación los Mock ups, estos son los modelos de diseño que se utilizará
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
+
+<div style="text-align: center;">
+  <img src="" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="h" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="" width="90%" />
+</div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
+
+<img src="https://i.imgur.com/q4hO630.png">
+
 ### 4.4.2. Web Applications Mock-ups.
 
 Enlace para acceder a los Mockups en Figma: [FIGMA](https://www.figma.com/design/6zsotpbkoOZH0xcz69YyCU/Mock-Upc?node-id=0-1&p=f&t=cClrOXvLgaL6N2Nu-0)
@@ -983,7 +1007,29 @@ Enlace para acceder a los Mockups en Figma: [FIGMA](https://www.figma.com/design
 <img src="https://i.imgur.com/QOmePg2.png[/img]">
 
 ### 4.4.3. Web Applications User Flow Diagrams.
+
+<img src="https://i.imgur.com/THb3xxQ.png">
+
 ## 4.5. Web Applications Prototyping.
+
+Para hacer los prototipos de la interfaz de usuario para **Desktop** y **Mobile Web Browser**, se siguieron estos puntos clave:
+
+- **Simplicidad y Usabilidad:**  
+  La idea era que la navegación fuera fácil y rápida, para que los usuarios pudieran entender las funciones principales (como registro de procesos, ver reportes, gestionar agendas) sin necesidad de tutoriales.
+
+- **Diseño Responsive:**  
+  Se aplicó un enfoque *“mobile-first”* y se ajustaron los breakpoints para asegurar que el prototipo funcione bien en cualquier dispositivo, desde celulares hasta pantallas grandes, sin perder legibilidad.
+
+- **Información Prioritaria:**  
+  Cada pantalla muestra solo lo necesario para la tarea actual, evitando distracciones. Se usaron tipografías jerarquizadas y espacios en blanco para resaltar lo más importante.
+
+- **Consistencia Visual:**  
+  Se definieron y usaron componentes comunes (botones, formularios, tarjetas, modales) con el mismo estilo de colores, tipografía y espaciado, para que el usuario tenga una experiencia consistente en todo el prototipo.
+
+- **Retroalimentación y Accesibilidad:**  
+  Todos los elementos interactivos tienen estados (*hover, foco, error*) y mensajes claros. Se siguieron reglas de contraste y navegación por teclado para asegurar que el prototipo sea accesible.
+
+
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
 
