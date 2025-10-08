@@ -954,158 +954,215 @@ Enlace para acceder a los Mockups en Figma: [FIGMA](https://www.figma.com/design
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
-<img src="https://i.imgur.com/bijuk8j.png">
+<img src="https://imgur.com/TxJQgtp.png">
 
 ### 4.7.2. Class Dictionary.
 
-### a. User (Entity, Aggregate Root)
+# Contextos delimitados (Bounded Contexts) – Visión DDD
 
-Descripción: Representa a un usuario de la plataforma (hogar o PYME). Es la raíz de agregado, pues controla los dispositivos y recomendaciones asociadas.
+> Sistema: Plataforma de Optimización Energética / IoT Verde  
+> Nota: Se listan **Aggregates**, **Entities**, **Value Objects**, **Servicios de Dominio**, comandos expuestos y restricciones/invariantes clave.
 
-### Atributos:
+
+## 1) IdentityContext (Identity & Access)
 
-- `userId: Long` → Identificador único del usuario.
+**Propósito**  
+Gestión de identidad, autenticación y perfil del usuario; dueño lógico de `UserId`.
 
-- `name: String` → Nombre del usuario.
+**Aggregate Root**
+- **User**
+  - Campos: `UserId id`, `Email email`, `Password password`, `UserType type`, `UserProfile profile`, `List<Device> devices`
+  - Comandos: `register()`, `login()`, `updateProfile()`, `addDevice()`
+  - Invariantes:
+    - `Email` debe ser válido/único.
+    - `Password` almacenado solo como `hashedValue`.
+    - Un `Device` añadido debe pertenecer al `ownerId = User.id`.
 
-- `email: String` → Correo electrónico del usuario.
+**Entities**
+- *(No adicionales dentro del aggregate `User`, los dispositivos pertenecen al MonitoringContext; aquí solo se referencia la colección para ownership lógico.)*
 
-- `password: String` → Contraseña encriptada.
+**Value Objects**
+- **UserProfile**: `name`, `List<ConsumptionHabit> habits`, `NotificationPreferences preferences`
+- **Email**: `value` (+ `validate()`)
+- **Password**: `hashedValue` (+ `encrypt()`, `verify()`)
 
-- `role: String` → Rol del usuario (ej. admin, cliente).
+**Integraciones / Colaboraciones**
+- Publica `UserId` a otros contextos (Monitoring, Reporting, Alert, AI, Enterprise).
+- Usa `AuthenticationService` (servicio de dominio compartido).
 
-### Métodos:
-No definidos directamente; se gestionan mediante AuthService.
 
-### b. AuthService (Service)
+## 2) MonitoringContext (Energy Monitoring)
 
-Descripción: Servicio que gestiona la autenticación y autorización de los usuarios.
+**Propósito**  
+Registro de consumo energético por usuario y por dispositivo; control operativo de dispositivos y sus horarios.
 
-### Métodos:
+**Aggregate Root**
+- **EnergyConsumption**
+  - Campos: `ConsumptionId id`, `UserId userId`, `DateTime timestamp`, `Energy value`, `List<DeviceConsumption> deviceConsumptions`
+  - Comandos: `recordConsumption()`, `getTotal()`
+  - Invariantes:
+    - `timestamp` es monotónico por `ConsumptionId`.
+    - `value.kWh` ≥ 0.
+    - Cada `DeviceConsumption.measuredAt` ∈ [periodo válido] y `deviceId` pertenece al `userId`.
 
-- `login(email: String, password: String): User` → Permite que un usuario inicie sesión.
+**Entities**
+- **Device**
+  - Campos: `DeviceId id`, `UserId ownerId`, `name`, `DeviceType type`, `Location location`, `DeviceStatus status`, `Schedule schedule`
+  - Comandos: `turnOn()`, `turnOff()`, `setSchedule()`
+  - Invariantes: `ownerId` ≡ `UserId` existente; `Schedule` no solapa tramos inválidos.
+- **Schedule** *(modelado como VO en el diagrama, se maneja como objeto inmutable dentro de Device)*
 
-- `register(user: User): User` → Registra un nuevo usuario en el sistema.
+**Value Objects**
+- **DeviceConsumption**: `deviceId`, `Energy consumption`, `DateTime measuredAt`
+- **Energy**: `double kWh`, `Currency estimatedCost` (+ `add()`, `compareTo()`)
+- **Schedule**: `startTime`, `endTime`, `List<DayOfWeek> days` (+ `isActive()`)
 
-- `logout(userId: Long): void` → Cierra sesión de un usuario.
+**Integraciones / Colaboraciones**
+- Consume `UserId` del IdentityContext.
+- Colabora con `ConsumptionCalculationService` para agregaciones por dispositivo y periodo.
 
-### c. Device (Entity)
+## 3) ReportingContext (Reporting)
 
-Descripción: Representa un dispositivo IoT conectado a la plataforma.
+**Propósito**  
+Generación de reportes, historiales y comparaciones de consumo/costo por periodo.
 
-### Atributos:
+**Aggregate Root**
+- **Report**
+  - Campos: `ReportId id`, `UserId userId`, `ReportType type`, `DateRange period`, `ReportData data`, `DateTime generatedAt`
+  - Comandos: `generate()`, `export()`
+  - Invariantes: `period` válido (`start ≤ end`); `data` coherente con fuentes de Monitoring.
 
-- `deviceId: Long` → Identificador único del dispositivo.
+**Entities**
+- **ConsumptionHistory**
+  - Campos: `HistoryId id`, `UserId userId`, `List<ConsumptionRecord> records`
+  - Comandos: `getByDateRange()`, `compare()`
 
-- `name: String` → Nombre del dispositivo (ej. lámpara, refrigerador).
+**Value Objects**
+- **ConsumptionRecord**: `DateTime date`, `Energy consumption`, `Currency cost`
+- **Comparison**: `Energy previousPeriod`, `Energy currentPeriod`, `Percentage variance` (+ `calculate()`)
 
-- `type: String` → Tipo de dispositivo (sensor, actuador).
+**Integraciones / Colaboraciones**
+- Lee consumos consolidados del MonitoringContext.
+- Expone datos para AlertContext (tendencias) y AIContext (features para recomendaciones).
 
-- `status: String` → Estado actual (encendido/apagado).
 
-- `location: String` → Ubicación física del dispositivo.
+## 4) AlertContext (Alerts & Notifications)
 
-### d. DeviceService (Service)
+**Propósito**  
+Definir umbrales, evaluar excedentes y notificar al usuario por canales configurados.
 
-Descripción: Servicio encargado de la gestión de dispositivos.
+**Aggregate Root**
+- **Alert**
+  - Campos: `AlertId id`, `UserId userId`, `AlertType type`, `message`, `AlertSeverity severity`, `DateTime triggeredAt`, `bool isRead`
+  - Comandos: `trigger()`, `markAsRead()`
+  - Invariantes: cada `Alert` referencia un `Threshold` o condición válida.
 
-### Métodos:
+**Entities**
+- **Threshold**
+  - Campos: `ThresholdId id`, `UserId userId`, `Energy limit`, `ThresholdType type`
+  - Comandos: `isExceeded()`
+- **Notification**
+  - Campos: `NotificationId id`, `AlertId alertId`, `NotificationChannel channel`, `NotificationStatus status`
+  - Comandos: `send()`
 
-- `addDevice(userId: Long, device: Device): Device` → Registra un nuevo dispositivo para un usuario.
+**Value Objects**
+- *(Usa `Energy` desde MonitoringContext como VO compartido conceptual — se recomienda anticorrupción si difieren unidades/formato.)*
 
-- `removeDevice(deviceId: Long): void` → Elimina un dispositivo existente.
+**Integraciones / Colaboraciones**
+- Llama a `AlertService` para `checkThresholds()`, `triggerAlert()`, `sendNotification()`.
+- Consume métricas del MonitoringContext y preferencias de `UserProfile` (IdentityContext).
 
-- `updateDevice(deviceId: Long, device: Device): Device` → Actualiza información de un dispositivo.
 
-- `listDevices(userId: Long): List<Device>` → Obtiene la lista de dispositivos de un usuario.
+## 5) AIContext (AI Recommendations)
 
-### e. ConsumptionRecord (Entity, Value Object inside Aggregate Device)
+**Propósito**  
+Extracción de patrones de consumo y emisión de recomendaciones y automatizaciones de ahorro.
 
-Descripción: Registro histórico de consumo energético de un dispositivo.
+**Aggregate Root**
+- **Recommendation**
+  - Campos: `RecommendationId id`, `UserId userId`, `description`, `RecommendationType type`, `Energy potentialSaving`, `DateTime createdAt`, `RecommendationStatus status`
+  - Comandos: `apply()`, `dismiss()`
+  - Invariantes: `potentialSaving.kWh` ≥ 0; `status` ∈ {Proposed, Applied, Dismissed}.
 
-### Atributos:
+**Entities**
+- **AIStrategy**
+  - Campos: `StrategyId id`, `UserId userId`, `List<OptimizationRule> rules`, `bool isActive`
+  - Comandos: `activate()`, `deactivate()`, `optimize()`
 
-- `recordId: Long` → Identificador del registro.
+**Value Objects**
+- **OptimizationRule**: `Condition condition`, `Action action`, `Priority priority`
 
-- `deviceId: Long` → Identificador del dispositivo asociado.
+**Integraciones / Colaboraciones**
+- Usa `RecommendationEngine` para `analyzePatterns()` y `generateRecommendations()`.
+- Lee histórico/series de Reporting y eventos/estados de Monitoring.
+- Puede coordinar con `Device.setSchedule()` (Monitoring) al aplicar acciones.
 
-- `timestamp: Date` → Momento en que se tomó la medida.
 
-- `energyUsed: Double` → Cantidad de energía consumida (kWh).
+## 6) EnterpriseContext (Empresa / Multisede)
 
-### f. ConsumptionService (Service)
+**Propósito**  
+Modelo organizacional para clientes corporativos: empresas, sedes, áreas y su consumo agregado.
 
-Descripción: Servicio encargado de obtener y analizar datos de consumo energético.
+**Aggregate Root**
+- **Company**
+  - Campos: `CompanyId id`, `name`, `TaxId taxId`, `List<Branch> branches`, `List<Employee> employees`
+  - Comandos: `addBranch()`, `addEmployee()`
+  - Invariantes: `TaxId` válido/único; cada `Branch.companyId` = `Company.id`.
 
-### Métodos:
+**Entities**
+- **Branch**
+  - Campos: `BranchId id`, `CompanyId companyId`, `name`, `Location location`, `List<Area> areas`
+  - Comandos: `compareConsumption()` (consolidación por sedes)
+- **Area**
+  - Campos: `AreaId id`, `BranchId branchId`, `name`, `List<Device> devices`
+  - Comandos: `getConsumption()` (consulta/agregación)
+- **Employee**
+  - Campos: `EmployeeId id`, `CompanyId companyId`, `name`, `Role role`, `List<Permission> permissions`
 
-- `getConsumption(userId: Long): List<ConsumptionRecord>` → Obtiene el historial de consumo de un usuario.
+**Value Objects**
+- *(Reutiliza `Location`; permisos/roles pueden modelarse como VO según políticas.)*
 
-- `getRealTimeData(deviceId: Long): ConsumptionRecord` → Devuelve el consumo energético en tiempo real de un dispositivo.
+**Integraciones / Colaboraciones**
+- Se apoya en Monitoring para consumo por `Device` y agregaciones por `Area/Branch/Company`.
+- Puede usar Reporting para reportes corporativos y comparativas entre áreas/sedes.
 
-### g. Schedule (Entity, Value Object inside Aggregate Device)
 
-Descripción: Representa una programación de encendido/apagado para un dispositivo.
+## 7) Servicios de Dominio (Cross-Context)
 
-### Atributos:
+> No constituyen bounded contexts por sí mismos; implementan lógica de dominio reusable/orquestación.
 
-- `scheduleId: Long` → Identificador único de la programación.
+- **AuthenticationService**
+  - `authenticate(email, password)`, `generateToken()`, `validateToken()`
+  - Colabora con IdentityContext; expone tokenización al resto.
+- **ConsumptionCalculationService**
+  - `calculateTotal()`, `calculateByDevice()`, `calculateByPeriod()`
+  - Sirve a Monitoring/Reporting para agregaciones consistentes.
+- **RecommendationEngine**
+  - `analyzePatterns()`, `generateRecommendations()`, `optimizeAutomatically()`
+  - Propio del AIContext; puede aplicar acciones en Monitoring (schedules).
+- **AlertService**
+  - `checkThresholds()`, `triggerAlert()`, `sendNotification()`
+  - Orquesta reglas de Threshold + canales de `Notification`.
 
-- `deviceId: Long` → Dispositivo asociado.
 
-- `startTime: Date` → Hora de inicio de la acción.
+## Relaciones clave entre Contextos
 
-- `endTime: Date` → Hora de fin de la acción.
+- **Identity → todos**: `UserId` como identidad transversal.
+- **Monitoring → Reporting**: fuente de series/consumos para reportes e históricos.
+- **Monitoring → Alert**: métricas en tiempo real para evaluar `Threshold`.
+- **Reporting → AI**: features (tendencias, variance) para recomendaciones.
+- **AI → Monitoring**: aplicación de `OptimizationRule` en `Device/Schedule`.
+- **Enterprise → Monitoring/Reporting**: agregaciones por `Area/Branch/Company`.
 
-- `action: String` → Acción a ejecutar (ej. encender, apagar).
 
-### h. ScheduleService (Service)
+## Decisiones / Recomendaciones de diseño
 
-Descripción: Servicio que gestiona las programaciones de dispositivos.
+- **VO compartidos**: `Energy`, `Location`, `DateRange` deben tener contratos estables; usar **anticorruption layer** si cambian por contexto.
+- **Consistencia**: comandos que afectan múltiples contextos (p.ej., `apply()` en AI que programa dispositivos) deberían emitirse como **eventos de dominio** y consumirse asincrónicamente.
+- **Seguridad**: `NotificationPreferences` y `permissions` deben consultarse antes de `sendNotification()` o exportaciones en Reporting.
+- **Escalabilidad**: `EnergyConsumption` puede particionarse por `userId` y `timestamp`; `DeviceConsumption` como stream append-only.
 
-### Métodos:
 
-- `createSchedule(schedule: Schedule): Schedule` → Crea una nueva programación.
-
-- `deleteSchedule(scheduleId: Long): void` → Elimina una programación existente.
-
-- `listSchedules(userId: Long): List<Schedule>` → Obtiene las programaciones asociadas a un usuario.
-
-### i. Recommendation (Entity, Value Object inside Aggregate User)
-
-Descripción: Representa una sugerencia de optimización energética generada para un usuario.
-
-### Atributos:
-
-- `recommendationId: Long` → Identificador de la recomendación.
-
-- `userId: Long` → Usuario al que está dirigida.
-
-- `message: String` → Mensaje con la recomendación.
-
-- `timestamp: Date`→ Momento en que fue generada.
-
-### j. RecommendationEngine (Service)
-
-Descripción: Motor de IA que analiza patrones de consumo y genera recomendaciones.
-
-### Métodos:
-
-- `generateRecommendations(userId: Long): List<Recommendation>` → Genera una lista de recomendaciones personalizadas para un usuario.
-
-### k. Database (Infrastructure Service)
-
-Descripción: Capa de persistencia que gestiona la comunicación con la base de datos.
-
-### Métodos:
-
-- `save(entity: Object): void` → Guarda una entidad.
-
-- `findById(id: Long): Object` → Busca una entidad por ID.
-
-- `findAll(entity: String): List<Object>` → Recupera todas las instancias de un tipo de entidad.
-
-- `delete(id: Long): void` → Elimina una entidad por ID.
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
