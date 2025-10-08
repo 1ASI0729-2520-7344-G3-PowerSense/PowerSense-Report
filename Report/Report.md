@@ -32,6 +32,8 @@
 | Versión | Fecha      | Autor             | Descripción de modificación                                                                                                                                                                                                                                                                                       |
 | ------- | ---------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | TB1    | 19/09/2025 | Powersense | En esta primera entrega se han incluido los capítulos:<br>• **Capítulo I:** Introducción<br>• **Capítulo II:** Requirements Elicitation & Analysis<br>• **Capítulo III:** Requirements Specification<br>• **Capítulo IV:** Product Design<br>• **Capítulo V:** Product Implementation, Validation & Deployment |
+ TP1    | 08/10/2025 | Powersense | En esta segunda entrega se han incluido los capítulos: Realización del Sprint 2 Planning y el Development Evidence para el Sprint Review (5.2.1.3 a 5.2.1.6 ) ,Finalización del Sprint 2: testing suite, ejecución, documentación de servicios y despliegue de software (5.2.2.4 a 5.2.2.7). Incorporación de Team Collaboration Insights del Sprint 2 (5.2.2.8). |
+
 # Project Report Collaboration Insights
 Enlace al repositorio para el informe del proyecto (Github): [PowerSense](hhttps://github.com/orgs/1ASI0729-2520-7344-G3-PowerSense/repositories)
 
@@ -45,6 +47,20 @@ Los contenidos se asignaron en formato Markdown, utilizando "Conventional Commit
 <div style="text-align: center;">
   <img src="https://i.imgur.com/WvbQ6sF.png" width="100%" />
 </div>
+
+## TP1
+Las actividades correspondientes a la entrega del TP1 fueron culminadas y registradas de manera adecuada en el repositorio de GitHub del equipo PowerSense.
+
+Asimismo, se elaboraron los artefactos requeridos utilizando las herramientas recomendadas y se llevaron a cabo reuniones periódicas para coordinar el progreso de los distintos componentes del informe y compartir los avances del Sprint 2, centrado en el desarrollo de la aplicación web.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/027Tjbi.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/3X1N0hW.png" width="100%" />
+</div>
+
 
 # Contenido
 ## Tabla de contenidos
@@ -145,19 +161,30 @@ Los contenidos se asignaron en formato Markdown, utilizando "Conventional Commit
       - [**5.2.1.6. Services Documentation Evidence for Sprint Review**](#5216-services-documentation-evidence-for-sprint-review)
       - [**5.2.1.7. Software Deployment Evidence for Sprint Review**](#5217-software-deployment-evidence-for-sprint-review)
       - [**5.2.1.8. Team Collaboration Insights during Sprint**](#5218-team-collaboration-insights-during-sprint)
-    - [**5.2.2. Sprint 2**]()
-      - [**5.2.2.1. Sprint Planning 2**]()
-      - [**5.2.2.2. Aspect Leaders and Collaborators.**]()
-      - [**5.2.2.3. Sprint Backlog 2**]()
-      - [**5.2.2.4. Development Evidence for Sprint Review**]()
-      - [**5.2.2.5. Execution Evidence for Sprint Review**]()
-      - [**5.2.2.6. Services Documentation Evidence for Sprint Review**]()
-      - [**5.2.2.7. Software Deployment Evidence for Sprint Review**]()
-      - [**5.2.2.8. Team Collaboration Insights during Sprint**]()
+    - [**5.2.2. Sprint 2**](#522-sprint-2)
+      - [**5.2.2.1. Sprint Planning 2**](#5221-sprint-planning-2)
+      - [**5.2.2.2. Aspect Leaders and Collaborators.**](#5222-aspect-leaders-and-collaborators)
+      - [**5.2.2.3. Sprint Backlog 2**](#5223-sprint-backlog-2)
+      - [**5.2.2.4. Development Evidence for Sprint Review**](#5224-development-evidence-for-sprint-review)
+      - [**5.2.2.5. Execution Evidence for Sprint Review**](#5225-execution-evidence-for-sprint-review)
+      - [**5.2.2.6. Services Documentation Evidence for Sprint Review**](#5226-services-documentation-evidence-for-sprint-review)
+      - [**5.2.2.7. Software Deployment Evidence for Sprint Review**](#5227-software-deployment-evidence-for-sprint-review)
+      - [**5.2.2.8. Team Collaboration Insights during Sprint**](#5228-team-collaboration-insights-during-sprint)
       - [**Conclusiones**](#conclusiones)
       - [**Bibliografia**](#bibliografia)
       - [**Anexo**](#anexo)
 ## Student Outcome
+
+ El curso favorece el cumplimiento del resultado esperado por ABET para los estudiantes:
+ ABET – EAC – Student Outcome 3
+ Criterio: Habilidad para comunicarse de manera efectiva con diversas audiencias. A continuación, se presenta un cuadro con
+ las acciones realizadas y las conclusiones emitidas por el grupo, que demuestran cómo se alcanzó el cumplimiento del ABET– EAC – Student Outcome 3.
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|--------------------------|------------------------------------|------------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Irving Allcca Guerrero:**<br>• **TB1:** Preparó una presentación en PowerPoint de 10 diapositivas sobre el “Startup Profile”, diseñando gráficas comparativas y adaptando el discurso para audiencias técnicas y de negocio.<br>• **TP1:** Explicó el flujo de login y registro durante la revisión técnica, destacando la usabilidad y validación de formularios en Angular Material.<br><br>**Sebastián Escobar Palomino:**<br>• **TB1:** Explicó el “Solution Profile” y los “Lean UX Problem Statements” en un pitch de 5 min, gestionando preguntas de sus compañeros y demostrando dominio de conceptos UX.<br>• **TP1:** Dirigió la presentación del avance del Sprint 2, detallando los commits y la configuración de GitHub Pages ante el equipo y el docente.<br><br>**Anderson Gonza Morales:**<br>• **TB1:** Moderó la sesión de preguntas y reforzó intervenciones con datos estadísticos, empleando un tono claro frente a audiencias no técnicas.<br>• **TP1:** Expuso las funciones del módulo de alertas, usando ejemplos de casos reales de usuario y métricas de eficiencia.<br><br>**Andy Arturo Núñez Soto:**<br>• **TB1:** Registró las dudas planteadas por la audiencia, sintetizó puntos clave y propuso mejoras de lenguaje para futuras presentaciones.<br>• **TP1:** Presentó la estructura de componentes del frontend y explicó las decisiones de diseño tomadas para optimizar el rendimiento del build de Angular.<br><br>**Juan Pastor Napa:**<br>• **TB1:** Compartió aportes del equipo proponiendo mejoras de comunicación y coordinación para futuros sprints.<br>• **TP1:** Mostró la navegación funcional del Dashboard y los reportes de consumo, respondiendo consultas sobre diseño responsivo y accesibilidad. | En la **TB1** se practicó la adaptación de la presentación a distintos públicos, ajustando el tono y respondiendo preguntas en tiempo real. En el **TP1**, se consolidó la comunicación técnica mediante exposiciones claras sobre implementación, reforzando la cohesión del equipo durante las revisiones. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Irving Allcca Guerrero:**<br>• **TB1:** Redactó en Markdown las secciones 1.1 y 1.1.1, aplicando encabezados semánticos, listas y tablas para lectura académica y ejecutiva.<br>• **TP1:** Documentó la estructura de autenticación y la fake API en formato Markdown, mejorando la trazabilidad técnica.<br><br>**Sebastián Escobar Palomino:**<br>• **TB1:** Diseñó la tabla de contenidos y definió los estilos de título, añadiendo enlaces internos y externos para lectores técnicos.<br>• **TP1:** Redactó la evidencia de commits y el flujo CI/CD en el README del repositorio, aplicando estilo técnico conciso.<br><br>**Anderson Gonza Morales:**<br>• **TB1:** Documentó el “Lean UX Process” con subtítulos, descripciones y gráficos en Markdown.<br>• **TP1:** Elaboró la guía de pruebas del módulo de dispositivos, detallando pasos y resultados esperados.<br><br>**Andy Arturo Núñez Soto:**<br>• **TB1:** Verificó la consistencia de estilo (negrillas, cursivas, bloques de código) y corrigió errores de sintaxis Markdown.<br>• **TP1:** Desarrolló la sección de “Development Evidence”, documentando los commits según convenciones estándar.<br><br>**Juan Pastor Napa:**<br>• **TB1:** Documentó el despliegue backend, evidenciando configuraciones y validaciones.<br>• **TP1:** Redactó la sección “Services Documentation Evidence”, describiendo los módulos de navegación, reportes y alertas con lenguaje claro. | La **TB1** evidenció la capacidad para estructurar documentación técnica clara y coherente. En el **TP1**, el equipo fortaleció la redacción técnica mediante Markdown, mejorando la legibilidad y consistencia del proyecto. |
+
 
 # Capítulo I: Introducción
 
@@ -1473,30 +1500,285 @@ En la siguiente sección se presentará el sprint #2, que incluye la versión in
 
 #### 5.2.2.1. Sprint Planning 2
 
+| **Sprint #** | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** |  |
+| **Date** | 2025-09-25 |
+| **Time** | 9:00 PM |
+| **Location** | Reunión mediante Discord |
+| **Prepared By** | Sebastian Escobar |
+| **Attendees (to planning meeting)** | Juan Pastor /Anderson Gonza/ Irving Allcca / Arturo Nuñez |
+| **Sprint 1 Review Summary** |Durante el Sprint 1 se desarrolló e implementó la landing page informativa, la cual cumplió con los criterios de aceptación establecidos y recibió comentarios favorables del equipo. |
+| **Sprint 1 Retrospective Summary** | El equipo detectó áreas de mejora en la organización de las tareas y en los procesos de comunicación, por lo que propuso realizar reuniones de seguimiento con mayor frecuencia y fortalecer la documentación del progreso alcanzado.|
+| **Sprint Goal & User Stories** |  |
+| **Sprint 2 Goal** | Nuestro objetivo es corregir los errores de la landing page y desarrollar el frontend junto con la fake API para ofrecer una interfaz más atractiva y funcional. Esto permitirá una mejor interacción de los usuarios con la plataforma y se validará una vez integrados ambos componentes, cumpliendo los criterios de aceptación y recibiendo retroalimentación positiva.|
+| **Sprint 2 Velocity** | 20 Story Points |
+| **Sum of Story Points** | 20 |
+
 #### 5.2.2.2. Aspect Leaders and Collaborators.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Capítulo I: Introducción (L/C)** | **Capítulo II: Requirements Elicitation & Analysis (L/C)** | **Capítulo III: Requirements Specification (L/C)** | **Capítulo IV: Product Design (L/C)** | **Capítulo V: Product Implementation, Validation & Deployment (L/C)** |
+| --------------------------------------- | ------------------- | ---------------------------------- | ---------------------------------------------------------- | -------------------------------------------------- | ------------------------------------- | --------------------------------------------------------------------- |
+| **Irving Allca**                   | noway-evitern17        | **L**                              | **C**                                                      | **C**                                              | **C**                                 | **C**                                                                 |
+| **Juan Pastor Napa**          | ElKiwi1271        | **C**                              | **L**                                                      | **C**                                              | **C**                                 | **C**                                                                 |
+| **Andy Arturo Nuñez Soto**          |arturo-ns           | **C**                              | **C**                                                      | **L**                                              | **C**                                 | **C**                                                                 |
+| **Anderson Gonza Morales**                        | Ander-U         | **C**                              | **C**                                                      | **C**                                              | **L**                                 | **C**                                                                 |
+| **Sebastian Escobar Palomino**                    | sebasepe               | **C**                              | **C**                                                      | **C**                                              | **C**                                 | **L** 
 
 #### 5.2.2.3. Sprint Backlog 2
 
+
+
+| Sprint # | User Story ID | Título                         | Descripción                                                                                                     | Estimación (Horas) | Asignado a                 | Estado |
+| -------- | ------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------- | ------------------ | -------------------------- | ------ |
+| Sprint 4 | HU21          | Reporte diario (Hogar)         | Como usuario de hogar, quiero recibir un reporte diario de mi consumo para tener visibilidad de mis hábitos.    | 5                  | Irving Allcca Guerrero     | To-do  |
+| Sprint 4 | HU22          | Reporte semanal corporativo    | Como admin de PYME, quiero reportes semanales consolidados para analizar patrones de consumo.                   | 6                  | Sebastián Escobar Palomino | To-do  |
+| Sprint 4 | HU23          | Alertas de exceso (Hogar)      | Como usuario de hogar, quiero recibir alertas cuando supere un umbral de consumo para reaccionar a tiempo.      | 4                  | Juan Pastor Napa           | To-do  |
+| Sprint 4 | HU24          | Alertas de picos energéticos   | Como admin de PYME, quiero recibir alertas automáticas ante picos de consumo para identificar anomalías.        | 5                  | Anderson Gonza Morales     | To-do  |
+| Sprint 4 | HU25          | Historial de consumo (Hogar)   | Como usuario de hogar, quiero ver un historial gráfico de mi consumo energético para analizar tendencias.       | 5                  | Andy Arturo Nuñez Soto     | To-do  |
+| Sprint 4 | HU26          | Historial corporativo avanzado | Como admin de PYME, quiero reportes históricos avanzados para evaluar el impacto de medidas de ahorro.          | 7                  | Sebastián Escobar Palomino | To-do  |
+| Sprint 4 | HU27          | Comparativa mensual (Hogar)    | Como usuario de hogar, quiero comparar mi consumo mensual con meses anteriores para evaluar mi progreso.        | 4                  | Juan Pastor Napa           | To-do  |
+| Sprint 4 | HU28          | Comparativa entre sedes (PYME) | Como admin de PYME, quiero comparar el consumo entre sedes para detectar ineficiencias.                         | 6                  | Anderson Gonza Morales     | To-do  |
+| Sprint 4 | HU29          | Notificaciones push (Hogar)    | Como usuario de hogar, quiero recibir notificaciones push sobre mi consumo para estar informado en tiempo real. | 4                  | Irving Allcca Guerrero     | To-do  |
+| Sprint 4 | HU30          | Notificaciones por correo      | Como admin de PYME, quiero recibir alertas por correo sobre consumos inusuales para actuar oportunamente.       | 4                  | Andy Arturo Nuñez Soto     | To-do  |
+
+
 #### 5.2.2.4. Development Evidence for Sprint Review
 
+| Repository              | Branch    | Commit Id    | Commit Message                                                  | Commit Message Body                                                                                                            | Committed on (Date) |
+| ----------------------- | --------- | ------------ | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------- |
+| **PowerSense/Frontend** | `develop` | `arturo-ns`  | **Commit inicial PowerSense Frontend**                          | Configuración base del proyecto Angular. Inicialización del repositorio con estructura de carpetas y dependencias principales. | Oct 4, 2025         |
+| **PowerSense/Frontend** | `develop` | `arturo-ns`  | **Commit producción PowerSense Frontend**                       | Ajustes para entorno de producción: optimización de assets y configuración de build.                                           | Oct 7, 2025         |
+| **PowerSense/Frontend** | `develop` | `arturo-ns`  | **Commit producción final PowerSense Frontend**                 | Versión estable del frontend para despliegue. Limpieza de código y mejoras finales.                                            | Oct 7, 2025         |
+| **PowerSense/Frontend** | `develop` | `arturo-ns`  | **ci: add GitHub Pages deploy workflow inside repo**            | Implementación del flujo CI/CD para despliegue automático en GitHub Pages.                                                     | Oct 7, 2025         |
+| **PowerSense/Frontend** | `develop` | `arturo-ns`  | **build: relax Angular budgets for GitHub Pages build**         | Ajuste de presupuestos (budgets) de compilación para evitar errores en el build de producción.                                 | Oct 7, 2025         |
+| **PowerSense/Frontend** | `develop` | `ElKiwi1271` | **feat(auth): add login and register UI with Angular Material** | Implementación de interfaces de Login y Registro utilizando Angular Material. Incluye validaciones y estilos responsivos.      | Oct 7, 2025         |
+| **PowerSense/Frontend** | `develop` | `sebasepe`   | **feat: add set-device-status.usecase.ts**                      | Creación del caso de uso `SetDeviceStatusUseCase` para actualizar el estado de los dispositivos.                               | Oct 8, 2025         |
+| **PowerSense/Frontend** | `develop` | `sebasepe`   | **Update device.repository.ts**                                 | Actualización del repositorio de dispositivos con nuevos métodos para gestión de estado y filtrado.                            | Oct 8, 2025         |
+| **PowerSense/Frontend** | `develop` | `sebasepe`   | **feat: add page-not-found.component.ts**                       | Implementación del componente 404 para rutas no encontradas. Incluye vista HTML y estilos.                                     | Oct 8, 2025         |
+| **PowerSense/Frontend** | `develop` | `sebasepe`   | **feat: add comments auth-layout.component.ts**                 | Adición de comentarios explicativos dentro del componente `AuthLayoutComponent` para documentación interna.                    | Oct 8, 2025         |
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
+Durante el Sprint 2 se completó la implementación de la landing page, que incorpora diversas secciones con información esencial sobre el producto y la startup. Asimismo, se logró un avance parcial en el desarrollo de la aplicación web, permitiendo que los usuarios interactúen con algunas funciones.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/1urvNac.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/fHXp0VN.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/FQsukhS.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/nhRFKE5.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Mel7X8l.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Z6NWzkS.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Uihjxxe.png" width="100%" />
+</div>
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+Pasos para realizar la Web Application:
+
+1. **Acceder a la plataforma web:**  
+   Ingresa a la aplicación web de PowerSense desde tu navegador para iniciar sesión o crear una nueva cuenta de usuario.
+
+2. **Crear una cuenta o iniciar sesión:**  
+   Si eres nuevo, completa el formulario de registro con tu nombre, correo electrónico y contraseña.  
+   Si ya tienes una cuenta, accede directamente ingresando tus credenciales.
+
+3. **Explorar el Dashboard principal:**  
+   Una vez dentro, podrás visualizar métricas clave como el consumo energético en tiempo real, costos estimados, ahorro mensual y nivel de eficiencia energética.
+
+4. **Navegar entre los módulos:**  
+   Usa el menú lateral para acceder a las secciones: *Dispositivos*, *Programación*, *Reportes*, *Alertas*, *Configuración* y *Ayuda*.
+
+5. **Gestionar dispositivos conectados:**  
+   En el módulo **Dispositivos**, revisa la lista de aparatos activos e inactivos.  
+   Puedes encender, apagar o configurar cada dispositivo de forma individual o en grupo según la habitación o categoría.
+
+6. **Programar horarios automáticos:**  
+   En **Programación**, establece horarios de encendido y apagado para optimizar el consumo energético.  
+   Usa las opciones rápidas como *Toda la casa*, *Solo dormitorios* o *Áreas comunes* para aplicar reglas automáticas.
+
+7. **Monitorear el consumo energético:**  
+   Observa los gráficos de consumo diario, semanal y mensual.  
+   Analiza la eficiencia y el ahorro obtenido con las configuraciones realizadas.
+
+8. **Generar reportes personalizados:**  
+   En el módulo **Reportes**, selecciona el tipo de informe (consumo, costo, eficiencia) y el periodo deseado.  
+   Los resultados se presentan con gráficos comparativos y opciones de descarga en PDF o CSV.
+
+9. **Configurar notificaciones y alertas:**  
+   Activa alertas automáticas para recibir avisos cuando el consumo supere límites predefinidos o cuando un dispositivo presente fallos.
+
+10. **Verificar el funcionamiento general:**  
+    Finalmente, asegúrate de que todas las funciones (dashboard, reportes, dispositivos y programación) se visualicen correctamente  
+    y que los botones y gráficos sean totalmente interactivos en diferentes dispositivos (PC, tablet o móvil).
+
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+En la entrega del segundo sprint, se finalizó la implementación de la landing page funcional, cumpliendo con las user stories establecidas para este entregable. Asimismo, se presentó una versión preliminar de la aplicación web. Link de la app web : [App Web](https://1asi0729-2520-7344-g3-powersense.github.io/PowerSense-Fronted/dashboard)
+
+LANDING PAGE :
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/D8VAjaU.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/KEk6XLo.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/g0cTqJL.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/DgkdQiF.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/bpD8zHJ.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/PAdL4Bk.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/EwpbPdB.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/JxfaWFt.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/RUGK2nz.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/qwgaMPn.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/nLC9u16.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ljFAIBC.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/96cZc2a.png" width="100%" />
+</div>
+
+WEB APPLICATION :
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/1urvNac.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/fHXp0VN.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/FQsukhS.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/nhRFKE5.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Mel7X8l.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Z6NWzkS.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Uihjxxe.png" width="100%" />
+</div>
+
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/2fCC5kC.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/HGiv8tc.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/NgpoJ6e.png" width="100%" />
+</div>
+
+
+#### Conclusiones
+- Nos centramos en la simplicidad y usabilidad, asegurando una experiencia fluida y consistente en dispositivos móviles y de escritorio mediante un diseño responsive *"mobile-first"*.
+
+- Mantuvimos consistencia visual con componentes comunes (botones, formularios, tarjetas), facilitando la navegación y destacando funcionalidades clave.
+
+- Adaptamos presentaciones orales y escritas para diferentes audiencias, asegurando claridad en el mensaje con herramientas visuales adecuadas como PowerPoint y Markdown.
+
+- Organizamos la documentación técnica de manera clara y coherente, utilizando metodologías como Lean UX y herramientas como Markdown para hacerla accesible a todos los perfiles de usuarios.
+
+- Validamos continuamente nuestras suposiciones con usuarios, alineando el producto con sus necesidades y contribuyendo al ahorro y la sostenibilidad.
+
+- Implementamos elementos interactivos con estados claros y normas de accesibilidad, asegurando que todos los usuarios pudieran interactuar fácilmente con la plataforma.  
+
+- Colaboramos eficazmente usando GitHub para la integración de tareas y Netlify para un despliegue eficiente del producto final.
+
+
+- Se consolidó el entorno de desarrollo frontend con Angular y se configuró el despliegue automatizado en GitHub Pages mediante CI/CD, garantizando versiones estables del producto.  
+
+- Se implementaron las interfaces de **login, registro y dashboard**, junto con los módulos de **dispositivos, programación y reportes**, aplicando diseño responsivo y criterios de accesibilidad.  
+
+- El equipo mejoró la coordinación y trazabilidad del trabajo usando **GitHub, Discord y Markdown**, asegurando comunicación fluida y calidad en los entregables del sprint.
 
 
 #### Bibliografia
 
+1. **Aglowid IT Solutions.** (2024). *[Top 12 Angular best practices to adapt in 2024](https://aglowiditsolutions.com).* Aglowid IT Solutions.
+
+2. **Aglowid IT Solutions.** (2024). *[Breaking large components into manageable sizes in Angular](https://aglowiditsolutions.com).* Aglowid IT Solutions.
+
+3. **Cinocvic, J., Delcev, S., & Draskovic, D.** (2019). *Architecture of web applications based on Angular Framework: A Case Study.* Universidad de Belgrado, Facultad de Ingeniería Eléctrica.
+   Recuperado de [https://www.eventiotic.com/eventiotic/files/Papers/URL/d6fb5054-816e-4bee-b983-663fb87be2cd.pdf](https://www.eventiotic.com/eventiotic/files/Papers/URL/d6fb5054-816e-4bee-b983-663fb87be2cd.pdf)
+
+4. **C# Corner.** (2024). *[Implementing lazy loading in Angular for performance improvements](https://www.c-sharpcorner.com/).* C# Corner.
+
+5. **IEEE.** (2016). *[Design and implementation of a web-based social network system](https://ieeexplore.ieee.org/document/7550838).* IEEE.
+
+6. **Krishnasamy, L., Dhanaraj, R. K., Ganesh Gopal, D., Reddy Gadekallu, T., Aboudaif, M. K., & Abouel Nasr, E.** (2020). *A heuristic angular clustering framework for secured statistical data aggregation in sensor networks.* *Sensors, 20*(17), 4937.
+   [https://doi.org/10.3390/s20174937](https://doi.org/10.3390/s20174937)
+
 
 #### Anexo
 1. **Despliegue del Landing Page:** [Landing Page](https://rococo-sprite-66ce8b.netlify.app/)
-2. **Link de la organización :** [Organización](https://github.com/1ASI0729-2520-7344-G3-PowerSense)
-5. **Link del repositorio del Reporte :** [Repositorio Reporte](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report)
-6. **Link del repositorio de la Landing Page :** [Repositorio LandingPage](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page)
-9. **Figma con los User Flow Diagrams, wireframes y mockups de la landing page:** [Figma](https://www.figma.com/design/6zsotpbkoOZH0xcz69YyCU/Mock-Upc?node-id=0-1&t=svzqcosOPQg0VdcE-1)
-13. **2.2.2. Registro de entrevistas:** [Entrevistas](https://www.youtube.com/watch?v=mx5nMZDKNeg)
-15. **Video de exposición:**[ Video de la exposicion]()
+2. **Despliegue del App Web:** [App Web](https://1asi0729-2520-7344-g3-powersense.github.io/PowerSense-Fronted/dashboard)
+3. **Link de la organización :** [Organización](https://github.com/1ASI0729-2520-7344-G3-PowerSense)
+4. **Link del repositorio del Reporte :** [Repositorio Reporte](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report)
+5. **Link del repositorio de la Landing Page :** [Repositorio LandingPage](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page)
+6. **Figma con los User Flow Diagrams, wireframes y mockups de la landing page:** [Figma](https://www.figma.com/design/6zsotpbkoOZH0xcz69YyCU/Mock-Upc?node-id=0-1&t=svzqcosOPQg0VdcE-1)
+7. **2.2.2. Registro de entrevistas:** [Entrevistas](https://www.youtube.com/watch?v=mx5nMZDKNeg)
+8. **Video de exposición:**[ Video de la exposicion]()
