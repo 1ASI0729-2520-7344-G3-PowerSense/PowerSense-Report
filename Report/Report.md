@@ -903,6 +903,16 @@ Explica cómo se organiza el acceso a información más detallada, como soporte,
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 
+<div style="text-align: center;">
+  <img src="https://imgur.com/8uDUf0C.png" width="90%" />
+  <img src="https://imgur.com/XA0Gv6i.png" width="90%" />
+  <img src="https://imgur.com/rN837sx.png" width="90%" />
+  <img src="https://imgur.com/F3JaQ9N.png" width="90%" />
+  <img src="https://imgur.com/8i6IjWm.png" width="90%" />
+  <img src="https://imgur.com/Ui0y2un.png" width="90%" />
+
+</div>
+
 ### 4.3.2. Landing Page Mock-up.
 A continuación los Mock ups, estos son los modelos de diseño que se utilizarán en la elaboración del landing page y servirá de modelo y base para la elaboración del landing page. 
 
