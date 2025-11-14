@@ -1791,10 +1791,33 @@ WEB APPLICATION :
 ### **5.2.3. Sprint 3**
 #### **5.2.3.1. Sprint Planning 3**
 
+| **Sprint #** | Sprint 3 |
+|---|---|
+| **Sprint Planning Background** |  |
+| **Date** | 2025-10-24 |
+| **Time** | 10:00 PM |
+| **Location** | Reunión mediante Discord |
+| **Prepared By** | Sebastian Escobar |
+| **Attendees (to planning meeting)** | Juan Pastor /Anderson Gonza/ Irving Allcca / Arturo Nuñez |
+| **Sprint 2 Review Summary** |Durante el Sprint 2 se desarrolló e implementó la Web Application, la cual cumplió con los criterios de aceptación establecidos y recibió comentarios favorables del equipo. |
+| **Sprint 2 Retrospective Summary** | El equipo detectó áreas de mejora en la organización de las tareas y en los procesos de comunicación, por lo que propuso realizar reuniones de seguimiento con mayor frecuencia y fortalecer la documentación del progreso alcanzado.|
+| **Sprint Goal & User Stories** |  |
+| **Sprint 3 Goal** | Nuestro objetivo es completar los módulos y componentes pendientes de la Web Application, garantizando su correcto funcionamiento a nivel de interfaz, lógica de negocio y comunicación con los servicios internos. Asimismo, se procederá a implementar y consolidar el backend, incluyendo la definición de endpoints, la integración con la base de datos, la gestión de autenticación/autorización y el despliegue en un entorno productivo. Con ello buscamos asegurar una arquitectura estable, escalable y alineada con los requerimientos funcionales y no funcionales del proyecto |
+| **Sprint 3 Velocity** | 20 Story Points |
+| **Sum of Story Points** | 20 |
+
 #### **5.2.3.2. Aspect Leaders and Collaborators**
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Capítulo I: Introducción (L/C)** | **Capítulo II: Requirements Elicitation & Analysis (L/C)** | **Capítulo III: Requirements Specification (L/C)** | **Capítulo IV: Product Design (L/C)** | **Capítulo V: Product Implementation, Validation & Deployment (L/C)** |
+| --------------------------------------- | ------------------- | ---------------------------------- | ---------------------------------------------------------- | -------------------------------------------------- | ------------------------------------- | --------------------------------------------------------------------- |
+| **Irving Allca**                   | noway-evitern17        | **L**                              | **C**                                                      | **C**                                              | **C**                                 | **C**                                                                 |
+| **Juan Pastor Napa**          | ElKiwi1271        | **C**                              | **L**                                                      | **C**                                              | **C**                                 | **C**                                                                 |
+| **Andy Arturo Nuñez Soto**          |arturo-ns           | **C**                              | **C**                                                      | **L**                                              | **C**                                 | **C**                                                                 |
+| **Anderson Gonza Morales**                        | Ander-U         | **C**                              | **C**                                                      | **C**                                              | **L**                                 | **C**                                                                 |
+| **Sebastian Escobar Palomino**                    | sebasepe               | **C**                              | **C**                                                      | **C**                                              | **C**                                 | **L** 
+
 
 #### **5.2.3.3. Sprint Backlog 3**
-
+En el tercer sprint, el equipo centró sus esfuerzos en desarrollar la estructura inicial del backend, priorizando una base sólida y funcional. Las tareas fueron distribuidas a través del tablero de Sprint, considerando las capacidades técnicas y especialidades de cada integrante del equipo.
 
 #### **5.2.3.4. Development Evidence for Sprint Review**
 
@@ -1941,7 +1964,6 @@ WEB APPLICATION :
 #### **5.3.3. Evaluaciones según heurísticas**
 
 ### **5.4. Video About-the-Product**
-
 
 
 
