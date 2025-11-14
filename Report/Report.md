@@ -1788,6 +1788,162 @@ WEB APPLICATION :
   <img src="https://i.imgur.com/NgpoJ6e.png" width="100%" />
 </div>
 
+### **5.2.3. Sprint 3**
+#### **5.2.3.1. Sprint Planning 3**
+
+#### **5.2.3.2. Aspect Leaders and Collaborators**
+
+#### **5.2.3.3. Sprint Backlog 3**
+
+
+#### **5.2.3.4. Development Evidence for Sprint Review**
+
+#### **5.2.3.5. Execution Evidence for Sprint Review**
+
+#### **5.2.3.6. Services Documentation Evidence for Sprint Review**
+
+#### **5.2.3.7. Software Deployment Evidence for Sprint Review**
+
+<img src="" />
+<img src="" />
+<img src="" />
+<img src="" />
+
+
+#### **5.2.3.8. Team Collaboration Insights during Sprint**
+
+<img src="" />
+<img src="" />
+<img src="" />
+<img src="" />
+<img src="" />
+
+### **5.3. Validation Interviews**
+#### **5.3.1. Diseño de Entrevistas**
+
+## Diseño de entrevista – Primer segmento objetivo: 
+
+## Diseño de entrevista – Segundo segmento objetivo: 
+
+
+#### **5.3.2. Registro de Entrevistas**
+## Entrevista para el Segmento Objetivo 1 -  :
+
+**Entrevista N°1:**
+
+**Entrevistado:** 
+
+**Sexo:** 
+
+**Edad:** 
+
+**Inicio de la Entrevista:** 
+
+**Fin de la Entrevista:** 
+
+
+<div style="text-align: center;">
+  <img src="" width="90%" />
+</div>
+
+**Resumen de la Entrevista:** 
+**Entrevista N°2:**
+
+**Entrevistado:** 
+
+**Sexo:** 
+
+**Edad:** 
+
+**Inicio de la Entrevista:** 
+
+**Fin de la Entrevista:** 
+
+<div style="text-align: center;">
+  <img src="" width="90%" />
+</div>
+
+**Resumen de la Entrevista:** 
+
+**Entrevista N°3:**
+
+**Entrevistado:** 
+
+**Sexo:** 
+
+**Edad:** 
+
+**Inicio de la Entrevista:** 
+
+**Fin de la Entrevista:** 
+
+<div style="text-align: center;">
+  <img src="" width="90%" />
+</div>
+
+**Resumen de la Entrevista:** 
+
+## Entrevista para el Segmento Objetivo 2 - :
+
+**Entrevista N°1:**
+
+**Entrevistado:** 
+
+**Sexo:** 
+
+**Edad:** 
+**Inicio de la Entrevista:** 
+
+**Fin de la Entrevista:** 
+
+<div style="text-align: center;">
+  <img src="" width="90%" />
+</div>
+
+**Resumen de la Entrevista:** 
+
+**Entrevista N°2:**
+
+**Entrevistado:** 
+
+**Sexo:** 
+
+**Edad:** 
+
+**Inicio de la Entrevista:** 
+
+**Fin de la Entrevista:** 
+
+<div style="text-align: center;">
+  <img src="" width="90%" />
+</div>
+
+**Resumen de la Entrevista:** 
+
+**Entrevista N°3:**
+
+**Entrevistado:** 
+
+**Sexo:** 
+
+**Edad:** 
+
+**Inicio de la Entrevista:** 
+
+**Fin de la Entrevista:** 
+
+<div style="text-align: center;">
+  <img src="" width="90%" />
+</div>
+
+**Resumen de la Entrevista:** 
+
+#### **5.3.3. Evaluaciones según heurísticas**
+
+### **5.4. Video About-the-Product**
+
+
+
 
 #### Conclusiones
 - Nos centramos en la simplicidad y usabilidad, asegurando una experiencia fluida y consistente en dispositivos móviles y de escritorio mediante un diseño responsive *"mobile-first"*.
