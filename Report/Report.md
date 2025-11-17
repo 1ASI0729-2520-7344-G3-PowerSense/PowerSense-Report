@@ -33,6 +33,7 @@
 | ------- | ---------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | TB1    | 19/09/2025 | Powersense | En esta primera entrega se han incluido los capítulos:<br>• **Capítulo I:** Introducción<br>• **Capítulo II:** Requirements Elicitation & Analysis<br>• **Capítulo III:** Requirements Specification<br>• **Capítulo IV:** Product Design<br>• **Capítulo V:** Product Implementation, Validation & Deployment |
  TP1    | 08/10/2025 | Powersense | En esta segunda entrega se han incluido los capítulos: Realización del Sprint 2 Planning y el Development Evidence para el Sprint Review (5.2.1.3 a 5.2.1.6 ) ,Finalización del Sprint 2: testing suite, ejecución, documentación de servicios y despliegue de software (5.2.2.4 a 5.2.2.7). Incorporación de Team Collaboration Insights del Sprint 2 (5.2.2.8). |
+ TB2    | 14/11/2025 | Powersense | En esta segunda entrega se han incluido los capítulos: Realización del Sprint 3 Planning y el Development Evidence para el Sprint Review (5.2.3.3 a 5.2.1.6 ) ,Finalización del Sprint 3: testing suite, ejecución, documentación de servicios y despliegue de software (5.2.3.4 a 5.2.3.7). Incorporación de Team Collaboration Insights del Sprint 2 (5.2.3.8). |
 
 # Project Report Collaboration Insights
 Enlace al repositorio para el informe del proyecto (Github): [PowerSense](hhttps://github.com/orgs/1ASI0729-2520-7344-G3-PowerSense/repositories)
@@ -61,6 +62,16 @@ Asimismo, se elaboraron los artefactos requeridos utilizando las herramientas re
   <img src="https://i.imgur.com/3X1N0hW.png" width="100%" />
 </div>
 
+## TB2
+Las actividades asignadas al TB2 fueron realizadas y registradas en el repositorio de GitHub del equipo. Asimismo, se llevaron a cabo reuniones de coordinación para organizar el desarrollo de los componentes del informe y revisar los avances del Sprint 3, centrado en el progreso del frontend y las mejoras del backend.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/HhfnqYC.png" width="100%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/6g9v0TU.png" width="100%" />
+</div>
 
 # Contenido
 ## Tabla de contenidos
@@ -203,10 +214,10 @@ Asimismo, se elaboraron los artefactos requeridos utilizando las herramientas re
  Criterio: Habilidad para comunicarse de manera efectiva con diversas audiencias. A continuación, se presenta un cuadro con
  las acciones realizadas y las conclusiones emitidas por el grupo, que demuestran cómo se alcanzó el cumplimiento del ABET– EAC – Student Outcome 3.
 
-| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** | 
 |--------------------------|------------------------------------|------------------|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Irving Allcca Guerrero:**<br>• **TB1:** Preparó una presentación en PowerPoint de 10 diapositivas sobre el “Startup Profile”, diseñando gráficas comparativas y adaptando el discurso para audiencias técnicas y de negocio.<br>• **TP1:** Explicó el flujo de login y registro durante la revisión técnica, destacando la usabilidad y validación de formularios en Angular Material.<br><br>**Sebastián Escobar Palomino:**<br>• **TB1:** Explicó el “Solution Profile” y los “Lean UX Problem Statements” en un pitch de 5 min, gestionando preguntas de sus compañeros y demostrando dominio de conceptos UX.<br>• **TP1:** Dirigió la presentación del avance del Sprint 2, detallando los commits y la configuración de GitHub Pages ante el equipo y el docente.<br><br>**Anderson Gonza Morales:**<br>• **TB1:** Moderó la sesión de preguntas y reforzó intervenciones con datos estadísticos, empleando un tono claro frente a audiencias no técnicas.<br>• **TP1:** Expuso las funciones del módulo de alertas, usando ejemplos de casos reales de usuario y métricas de eficiencia.<br><br>**Andy Arturo Núñez Soto:**<br>• **TB1:** Registró las dudas planteadas por la audiencia, sintetizó puntos clave y propuso mejoras de lenguaje para futuras presentaciones.<br>• **TP1:** Presentó la estructura de componentes del frontend y explicó las decisiones de diseño tomadas para optimizar el rendimiento del build de Angular.<br><br>**Juan Pastor Napa:**<br>• **TB1:** Compartió aportes del equipo proponiendo mejoras de comunicación y coordinación para futuros sprints.<br>• **TP1:** Mostró la navegación funcional del Dashboard y los reportes de consumo, respondiendo consultas sobre diseño responsivo y accesibilidad. | En la **TB1** se practicó la adaptación de la presentación a distintos públicos, ajustando el tono y respondiendo preguntas en tiempo real. En el **TP1**, se consolidó la comunicación técnica mediante exposiciones claras sobre implementación, reforzando la cohesión del equipo durante las revisiones. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Irving Allcca Guerrero:**<br>• **TB1:** Redactó en Markdown las secciones 1.1 y 1.1.1, aplicando encabezados semánticos, listas y tablas para lectura académica y ejecutiva.<br>• **TP1:** Documentó la estructura de autenticación y la fake API en formato Markdown, mejorando la trazabilidad técnica.<br><br>**Sebastián Escobar Palomino:**<br>• **TB1:** Diseñó la tabla de contenidos y definió los estilos de título, añadiendo enlaces internos y externos para lectores técnicos.<br>• **TP1:** Redactó la evidencia de commits y el flujo CI/CD en el README del repositorio, aplicando estilo técnico conciso.<br><br>**Anderson Gonza Morales:**<br>• **TB1:** Documentó el “Lean UX Process” con subtítulos, descripciones y gráficos en Markdown.<br>• **TP1:** Elaboró la guía de pruebas del módulo de dispositivos, detallando pasos y resultados esperados.<br><br>**Andy Arturo Núñez Soto:**<br>• **TB1:** Verificó la consistencia de estilo (negrillas, cursivas, bloques de código) y corrigió errores de sintaxis Markdown.<br>• **TP1:** Desarrolló la sección de “Development Evidence”, documentando los commits según convenciones estándar.<br><br>**Juan Pastor Napa:**<br>• **TB1:** Documentó el despliegue backend, evidenciando configuraciones y validaciones.<br>• **TP1:** Redactó la sección “Services Documentation Evidence”, describiendo los módulos de navegación, reportes y alertas con lenguaje claro. | La **TB1** evidenció la capacidad para estructurar documentación técnica clara y coherente. En el **TP1**, el equipo fortaleció la redacción técnica mediante Markdown, mejorando la legibilidad y consistencia del proyecto. |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Irving Allcca Guerrero:**<br>• **TB1:** Preparó una presentación en PowerPoint de 10 diapositivas sobre el “Startup Profile”, diseñando gráficas comparativas y adaptando el discurso para audiencias técnicas y de negocio.<br>• **TP1:** Explicó el flujo de login y registro durante la revisión técnica, destacando la usabilidad y validación de formularios en Angular Material.<br>• **TB2:** Presentó los avances del backend y el despliegue en Render, explicando la estructura de los endpoints y la documentación en Swagger para audiencias técnicas.<br><br>**Sebastián Escobar Palomino:**<br>• **TB1:** Explicó el “Solution Profile” y los “Lean UX Problem Statements” en un pitch de 5 min, gestionando preguntas de sus compañeros.<br>• **TP1:** Dirigió la presentación del avance del Sprint 2, detallando commits y configuración de GitHub Pages.<br>• **TB2:** Expuso la organización del sprint y el progreso del frontend, comunicando los cambios en componentes y navegación del Dashboard.<br><br>**Anderson Gonza Morales:**<br>• **TB1:** Moderó la sesión de preguntas y reforzó intervenciones con datos estadísticos para audiencia no técnica.<br>• **TP1:** Expuso las funciones del módulo de alertas con ejemplos reales.<br>• **TB2:** Explicó la integración del módulo de dispositivos y la gestión de estados, comunicando claramente el funcionamiento y casos de uso.<br><br>**Andy Arturo Núñez Soto:**<br>• **TB1:** Registró dudas de la audiencia, sintetizó puntos clave y propuso mejoras en la presentación.<br>• **TP1:** Presentó la estructura de componentes del frontend y decisiones de diseño para optimizar el rendimiento.<br>• **TB2:** Comunicó el flujo de coordinación entre frontend y backend, abordando la interacción con endpoints y validaciones en la UI.<br><br>**Juan Pastor Napa:**<br>• **TB1:** Propuso mejoras de comunicación y coordinación interna.<br>• **TP1:** Mostró la navegación funcional del Dashboard y reportes de consumo.<br>• **TB2:** Presentó la evidencia del backend y la documentación técnica, explicando el funcionamiento de los endpoints del módulo de dispositivos y reportes. | En **TB1** se trabajó la adaptación del mensaje según la audiencia. En **TP1**, se fortaleció la comunicación técnica durante revisiones. En **TB2**, el equipo consolidó su capacidad para explicar desarrollos avanzados (backend, frontend y despliegue), mejorando la claridad en presentaciones técnicas. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Irving Allcca Guerrero:**<br>• **TB1:** Redactó en Markdown las secciones 1.1 y 1.1.1 con estructura académica.<br>• **TP1:** Documentó autenticación y fake API con trazabilidad técnica.<br>• **TB2:** Redactó la documentación de los endpoints del backend y el despliegue en Render, aplicando lenguaje técnico y ejemplos de uso.<br><br>**Sebastián Escobar Palomino:**<br>• **TB1:** Diseñó tabla de contenidos y estilos del documento.<br>• **TP1:** Redactó evidencia de commits y flujo CI/CD.<br>• **TB2:** Documentó los componentes actualizados del frontend y agregó capturas del Dashboard revisado, asegurando claridad en el apartado visual.<br><br>**Anderson Gonza Morales:**<br>• **TB1:** Documentó el “Lean UX Process”.<br>• **TP1:** Elaboró guía de pruebas del módulo de dispositivos.<br>• **TB2:** Redactó la sección de integración frontend-backend, describiendo endpoints utilizados, validaciones y escenarios de prueba.<br><br>**Andy Arturo Núñez Soto:**<br>• **TB1:** Corregió formato Markdown y consistencia visual.<br>• **TP1:** Documentó la “Development Evidence”.<br>• **TB2:** Redactó la sección de “TB2 Evidence”, detallando avances del sprint, decisiones técnicas y estructura de carpetas del proyecto.<br><br>**Juan Pastor Napa:**<br>• **TB1:** Documentó el despliegue backend.<br>• **TP1:** Redactó “Services Documentation Evidence”.<br>• **TB2:** Documentó la evidencia de pruebas del backend, describiendo respuestas de los endpoints y casos de error. | La **TB1** fortaleció la redacción técnica inicial. En **TP1**, se consolidó la documentación del proyecto en formato Markdown. En **TB2**, se elevó la calidad de la documentación técnica, incorporando evidencia de endpoints, despliegues y flujos completos del sistema. |
 
 
 # Capítulo I: Introducción
@@ -1842,151 +1853,273 @@ WEB APPLICATION :
 #### **5.2.3.3. Sprint Backlog 3**
 En el tercer sprint, el equipo centró sus esfuerzos en desarrollar la estructura inicial del backend, priorizando una base sólida y funcional. Las tareas fueron distribuidas a través del tablero de Sprint, considerando las capacidades técnicas y especialidades de cada integrante del equipo.
 
+|User Story Id | User Story Title                       | Task Id | Task Title                                      | Description    | Estimation (Horas) | Assigned To                 | Status |
+|---------------|-----------------------------------------|---------|--------------------------------------------------|---------------------------------------------------------------------------------------------------|---------------------|------------------------------|--------|
+| HU7           | Registro de usuario hogar               | TK01    | Crear modelo de usuario                          | Implementar la entidad y repositorio para usuarios hogar.                                        | 2                   | Backend Dev 1                | To Do  |
+| HU7           | Registro de usuario hogar               | TK02    | Implementar endpoint de registro                 | Crear el endpoint REST para registrar usuarios hogar y validar campos obligatorios.              | 3                   | Backend Dev 1                | To Do  |
+| HU7           | Registro de usuario hogar               | TK03    | Validaciones de registro                         | Implementar validación de contraseña, email único y manejo de errores.                           | 2                   | Backend Dev 1                | To Do  |
+| HU7           | Registro de usuario hogar               | TK04    | Pruebas unitarias de registro                    | Crear pruebas unitarias para el proceso de registro.                                              | 1                   | Backend Dev 1                | To Do  |
+| HU8           | Registro empresarial (PYME)             | TK05    | Crear modelo corporativo                         | Crear entidad Empresa (RUC, correo corporativo, admin).                                           | 2                   | Backend Dev 2                | To Do  |
+| HU8           | Registro empresarial (PYME)             | TK06    | Endpoint de registro empresarial                 | Implementar endpoint REST /register-company con validaciones de RUC.                             | 3                   | Backend Dev 2                | To Do  |
+| HU8           | Registro empresarial (PYME)             | TK07    | Validaciones corporativas                        | Validar unicidad de RUC y correos corporativos.                                                   | 2                   | Backend Dev 2                | To Do  |
+| HU8           | Registro empresarial (PYME)             | TK08    | Pruebas unitarias de registro empresarial        | Crear pruebas unitarias del flujo de registro empresarial.                                        | 1                   | Backend Dev 2                | To Do  |
+| HU9           | Inicio de sesión hogar                  | TK09    | Implementar autenticación JWT                    | Crear lógica de validación de usuarios hogar y generación de tokens JWT.                         | 3                   | Backend Dev 3                | To Do  |
+| HU9           | Inicio de sesión hogar                  | TK10    | Endpoint login hogar                             | Implementar endpoint /login para usuarios hogar.                                                  | 2                   | Backend Dev 3                | To Do  |
+| HU9           | Inicio de sesión hogar                  | TK11    | Manejo de expiración de sesión                   | Implementar expiración y cierre automático de sesión.                                             | 1                   | Backend Dev 3                | To Do  |
+| HU10          | Inicio de sesión corporativo            | TK12    | Implementar login corporativo                    | Implementar autenticación JWT para empresas.                                                      | 3                   | Backend Dev 3                | To Do  |
+| HU10          | Inicio de sesión corporativo            | TK13    | Endpoint login empresarial                       | Crear endpoint /login-company con validación de credenciales corporativas.                       | 2                   | Backend Dev 3                | To Do  |
+| HU11          | Gestión de roles y usuarios PYME        | TK14    | Crear CRUD de usuarios corporativos              | Crear entidades, servicios y repositorio para empleados y supervisores.                           | 3                   | Backend Dev 1                | To Do  |
+| HU11          | Gestion de roles y usuarios PYME        | TK15    | Endpoint de alta de usuario corporativo          | Implementar POST /users/create con asignación de roles.                                           | 2                   | Backend Dev 1                | To Do  |
+| HU11          | Gestión de roles y usuarios PYME        | TK16    | Endpoint de modificación de roles                | Crear PUT /users/{id}/role para actualización.                                                    | 1                   | Backend Dev 1                | To Do  |
+| HU11          | Gestión de roles y usuarios PYME        | TK17    | Endpoint de eliminación de usuarios              | Implementar DELETE /users/{id}.                                                                   | 1                   | Backend Dev 1                | To Do  |
+| HU13          | Consumo en tiempo real (hogar)          | TK18    | Servicio de consumo en tiempo real               | Implementar acceso a datos IoT y cálculo del consumo actual.                                      | 3                   | Backend Dev 2                | To Do  |
+| HU13          | Consumo en tiempo real (hogar)          | TK19    | Endpoint realtime consumo                        | Crear GET /consumo/realtime.                                                                      | 2                   | Backend Dev 2                | To Do  |
+| HU14          | Dashboard empresarial                   | TK20    | Servicio de consumo por área                     | Implementar consultas de consumo por departamento/área.                                           | 3                   | Backend Dev 2                | To Do  |
+| HU14          | Dashboard empresarial                   | TK21    | Endpoint consumo empresarial                      | Crear GET /consumo/areas.                                                                         | 2                   | Backend Dev 2                | To Do  |
+| HU15          | Control remoto hogar                    | TK22    | Servicio de control de dispositivos              | Implementar lógica para enviar señales ON/OFF a dispositivos.                                     | 3                   | Backend Dev 3                | To Do  |
+| HU15          | Control remoto hogar                    | TK23    | Endpoint control remoto                           | Crear POST /dispositivos/control.                                                                 | 2                   | Backend Dev 3                | To Do  |
+| HU16          | Control remoto empresarial              | TK24    | Control masivo por área                           | Implementar control de dispositivos agrupados por área.                                           | 2                   | Backend Dev 3                | To Do  |
+| HU17          | Programación de horarios (hogar)        | TK25    | Crear módulo de programaciones                    | Implementar entidad Programación y lógica de ejecución.                                           | 3                   | Backend Dev 1                | To Do  |
+| HU17          | Programación de horarios (hogar)        | TK26    | Endpoint CRUD de programaciones                   | Implementar API para crear, editar y eliminar programaciones.                                     | 2                   | Backend Dev 1                | To Do  |
+| HU18          | Programación grupal (PYME)              | TK27    | Servicio de apagado automático corporativo       | Lógica para ejecutar apagados por área en horarios definidos.                                     | 3                   | Backend Dev 1                | To Do  |
+| HU19          | Gestión de dispositivos (hogar)         | TK28    | CRUD de dispositivos hogar                        | Crear entidad, repositorio y servicio de dispositivos.                                            | 3                   | Backend Dev 2                | To Do  |
+| HU20          | Gestión masiva de dispositivos          | TK29    | Importación masiva de dispositivos               | Implementar carga de archivos y alta múltiple.                                                    | 3                   | Backend Dev 2                | To Do  |
+| HU21          | Reporte diario                          | TK30    | Generación automática de reportes diarios        | Crear job programado que genere reportes diarios.                                                 | 3                   | Backend Dev 3                | To Do  |
+| HU21          | Reporte diario                          | TK31    | Endpoint de historial diario                      | GET /reportes/diario.                                                                             | 2                   | Backend Dev 3                | To Do  |
+| HU22          | Reporte semanal corporativo             | TK32    | Generación semanal de reportes corporativos       | Crear proceso automático semanal.                                                                  | 3                   | Backend Dev 3                | To Do  |
+| HU23          | Alertas por exceso                      | TK33    | Motor de alertas por umbral                       | Implementar lógica para detectar exceso de consumo.                                               | 2                   | Backend Dev 1                | To Do  |
+| HU24          | Alertas de picos energéticos            | TK34    | Detección de picos en tiempo real                 | Implementar detección de picos energéticos por área.                                              | 2                   | Backend Dev 1                | To Do  |
+| HU25          | Historial de consumo                    | TK35    | Endpoint historial por fechas                     | GET /reportes/historicos con filtros.                                                             | 2                   | Backend Dev 2                | To Do  |
+| HU31          | Recomendaciones IA básicas              | TK36    | Integrar motor IA básico                          | Implementar servicio que consume modelo IA.                                                       | 3                   | Backend Dev 3                | To Do  |
+| HU32          | Recomendaciones IA corporativas         | TK37    | Servicio IA corporativo                           | Implementar análisis sobre datos históricos empresariales.                                         | 3                  | Backend Dev 3                | To Do  |
+| HU33          | Optimización automática hogar           | TK38    | Motor de optimización automática                  | Implementar lógica que ajusta dispositivos en tiempo real.                                        | 4                   | Backend Dev 3                | To Do  |
+| HU41          | Endpoint de recomendaciones IA          | TK39    | Endpoint /recomendaciones/ia                      | Crear endpoint REST para obtener recomendaciones IA.                                              | 2                   | Backend Dev 3                | To Do|
+
+
 #### **5.2.3.4. Development Evidence for Sprint Review**
+
+### 5.2.3.4. Development Evidence for Sprint Review
+
+| Repository        | Branch    | Commit Id | Commit Message                                                                                   | Commit Message Body                                                                 | Committed on (Date) |
+|-------------------|-----------|-----------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------|
+| PowerSense-Backend | main      | a12f89b   | feat(auth): implement JWT-based authentication for home users                                     | Added login, registration validation and JWT token generation service                | 11/11/2025           |
+| PowerSense-Backend | main   | c89d12a   | feat(consumption): add real-time energy consumption endpoint                                      | Implemented /api/consumo/realtime with IoT mock service and error handling           | 11/11/2025           |
+| PowerSense-Backend | main      | 9fe33c1   | feat(devices): implement device control ON/OFF REST endpoint                                      | Added POST /api/dispositivos/control with action validation and DB updates           | 11/11/2025           |
+
 
 #### **5.2.3.5. Execution Evidence for Sprint Review**
 
+En este sprint, el equipo de PowerSens desplegó el Backend en Render, utilizando PostgreSQL como base de datos, asegurando un entorno estable y listo para escalar. También se actualizó el frontend y la landing page, mejorando la experiencia del usuario e incorporando funciones clave como gestión de dispositivos y visualización de consumo energético.
+
+La API está documentada en Swagger, facilitando su uso para el equipo de desarrollo.
+
+Enlace a Swagger: [Backend](https://powersense-backend.onrender.com/login)
+
+Ingresar con username : admin , password: PowerSense_Backend_2025
+
+<img src="https://i.imgur.com/riFNSQe.png" />
+<img src="https://i.imgur.com/PnCPonv.png" />
+<img src="https://i.imgur.com/UUgK3Kx.png" />
+
+
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review**
+Aquí tienes el texto **adaptado a PowerSense**, siguiendo la estructura del ejemplo, pero **más corto, claro y alineado a tu proyecto**:
+
+---
+
+En el **Sprint 3 de PowerSense**, se priorizó el desarrollo y despliegue del **Backend en Render**, junto con la incorporación de nuevas funcionalidades para el monitoreo y control energético. Los servicios web fueron documentados con **Swagger**, permitiendo a los desarrolladores acceder fácilmente a la API y comprender cada uno de los endpoints disponibles.
+
+La documentación incluye:
+
+* Descripción de los endpoints para **gestión de usuarios, dispositivos y consumo energético en tiempo real**.
+* Detalles de operaciones como **lectura de consumo**, **control remoto ON/OFF**, **programación de horarios** y **generación de reportes históricos**.
+* Ejemplos de solicitudes y respuestas para integrar el frontend, como consumo por usuario, filtrado por fecha o actualización del estado del dispositivo.
+
+Esta documentación mejora la comprensión del backend y asegura un entendimiento común dentro del equipo, permitiendo avanzar de forma coordinada hacia las siguientes fases del proyecto e integrar nuevas características de PowerSense.
 
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
+Se incluye la evidencia del despliegue del backend, junto con el enlace correspondiente.
+ Enlace a Swagger: [Backend](https://powersense-backend.onrender.com/login)
 
-<img src="" />
-<img src="" />
-<img src="" />
-<img src="" />
-
+<img src="https://i.imgur.com/riFNSQe.png" />
+<img src="https://i.imgur.com/PnCPonv.png" />
+<img src="https://i.imgur.com/UUgK3Kx.png" />
 
 #### **5.2.3.8. Team Collaboration Insights during Sprint**
 
-<img src="" />
-<img src="" />
-<img src="" />
-<img src="" />
-<img src="" />
+<img src="https://i.imgur.com/MbE9ZBZ.png" />
+<img src="https://i.imgur.com/hrxLnsj.png" />
+<img src="https://i.imgur.com/u7tNxsF.png" />
 
 ### **5.3. Validation Interviews**
 #### **5.3.1. Diseño de Entrevistas**
 
-## Diseño de entrevista – Primer segmento objetivo: 
+## Diseño de entrevista – Primer segmento objetivo: PYME
 
-## Diseño de entrevista – Segundo segmento objetivo: 
+1 ¿La sección de planes y precios te parece relevante para un negocio?
 
+2 ¿El desglose de consumo por área/departamento (como se ve en el Mockup) te es útil para tu negocio?
+
+3 ¿Qué tan útil sería para tu operación el control grupal (ej. "Apagar todos" en una sala)?
+
+4 ¿La opción de programación grupal fuera de horario resuelve una de tus frustraciones de costo?
+
+5 ¿Te parecio intuitiva y fácil de usar el app web?
+
+## Diseño de entrevista – Segundo segmento objetivo: Hogares
+
+1 ¿El mensaje principal de la web es claro?
+
+2 ¿El gráfico de consumo te ayuda a entender dónde se va la energía?
+
+3 ¿Qué tan fácil fue encender o apagar el dispositivo?
+
+4 ¿Te sientes en control de poder programar un horario para un dispositivo?
+
+5 ¿Te parecio intuitiva y fácil de usar el app web?
 
 #### **5.3.2. Registro de Entrevistas**
-## Entrevista para el Segmento Objetivo 1 -  :
+## Entrevista para el Segmento Objetivo 1 - PYME :
 
 **Entrevista N°1:**
 
-**Entrevistado:** 
+**Entrevistado: Jose** 
 
-**Sexo:** 
+**Sexo: masculino** 
 
-**Edad:** 
+**Edad: 20** 
 
-**Inicio de la Entrevista:** 
+**Inicio de la Entrevista: 0:00** 
 
-**Fin de la Entrevista:** 
+**Fin de la Entrevista: 8:14** 
 
 
 <div style="text-align: center;">
-  <img src="" width="90%" />
+  <img src="https://i.imgur.com/9ODT9Sp.png[/img]" width="90%" />
 </div>
 
 **Resumen de la Entrevista:** 
-**Entrevista N°2:**
+El entrevistado Jose que es dueño de un minimarket, menciona que la sección de planes le parece relevante para su negocio, que la parte de áreas del app web le aprece muy útil ya que ahorra tiempo. Adicionalmente menciona que la poder programar un dispositivo le ahorraría dinero a la hora de que los trabajadores terminen su jornada.
 
-**Entrevistado:** 
+**Link entrevista: https://acortar.link/SW3InT** 
 
-**Sexo:** 
 
-**Edad:** 
-
-**Inicio de la Entrevista:** 
-
-**Fin de la Entrevista:** 
-
-<div style="text-align: center;">
-  <img src="" width="90%" />
-</div>
-
-**Resumen de la Entrevista:** 
-
-**Entrevista N°3:**
-
-**Entrevistado:** 
-
-**Sexo:** 
-
-**Edad:** 
-
-**Inicio de la Entrevista:** 
-
-**Fin de la Entrevista:** 
-
-<div style="text-align: center;">
-  <img src="" width="90%" />
-</div>
-
-**Resumen de la Entrevista:** 
-
-## Entrevista para el Segmento Objetivo 2 - :
+## Entrevista para el Segmento Objetivo 2 - HOGARES :
 
 **Entrevista N°1:**
 
-**Entrevistado:** 
+**Entrevistado: Oscar** 
 
-**Sexo:** 
+**Sexo: masculino** 
 
-**Edad:** 
-**Inicio de la Entrevista:** 
+**Edad: 21** 
+**Inicio de la Entrevista: 0:00** 
 
-**Fin de la Entrevista:** 
+**Fin de la Entrevista: 8:50** 
 
 <div style="text-align: center;">
-  <img src="" width="90%" />
+  <img src="https://i.imgur.com/6W94q7e.png" width="90%" />
 </div>
 
 **Resumen de la Entrevista:** 
+El entrevistado Oscar que reside en Chorrillos, menciona que si le aprecio intuitiva y fácil de usar el app web, que la landing page se resulto clara. Menciona que el grafico le ayuda mucho  poder saber donde se va mas energía y que también le gusta la opción de poder exportar en pdf la información.
 
-**Entrevista N°2:**
+**Link entrevista: https://acortar.link/BZfCBM** 
 
-**Entrevistado:** 
-
-**Sexo:** 
-
-**Edad:** 
-
-**Inicio de la Entrevista:** 
-
-**Fin de la Entrevista:** 
-
-<div style="text-align: center;">
-  <img src="" width="90%" />
-</div>
-
-**Resumen de la Entrevista:** 
-
-**Entrevista N°3:**
-
-**Entrevistado:** 
-
-**Sexo:** 
-
-**Edad:** 
-
-**Inicio de la Entrevista:** 
-
-**Fin de la Entrevista:** 
-
-<div style="text-align: center;">
-  <img src="" width="90%" />
-</div>
-
-**Resumen de la Entrevista:** 
 
 #### **5.3.3. Evaluaciones según heurísticas**
 
+
+| **Site o App a Evaluar** | PowerSens – Plataforma de Monitoreo y Optimización Energética |
+| :- | :- |
+| **Tareas a evaluar** | Evaluación de usabilidad para las principales funciones del sistema. |
+| **Desktop Landing Page** | - Presentación del producto y beneficios <br> - Explicación del monitoreo y control energético <br> - Información del equipo <br> - Testimonios o casos de uso <br> - Header y footer funcionales |
+| **Desktop Web Application** | - Visualización del consumo en tiempo real <br> - Gestión y control de dispositivos <br> - Reportes e históricos <br> - Configuración de alertas <br> - Navegación entre módulos |
+| **No incluidas en esta versión** | - Mobile App <br> - Integraciones IoT reales (mock) <br> - Funciones avanzadas de IA |
+
+---
+
+## **Escala de Severidad**
+
+| Nivel | Descripción |
+| :- | :- |
+| 1 | Superficial: fácil de superar o poco frecuente. |
+| 2 | Menor: ocurre ocasionalmente, prioridad baja. |
+| 3 | Mayor: frecuente o afecta tareas clave, prioridad alta. |
+| 4 | Crítico: bloquea el uso, debe corregirse antes del release. |
+
+---
+
+# **Tabla Resumen – PowerSens**
+
+## **Landing Page**
+
+| # | Problema | Severidad | Heurística violada |
+| :- | :- | :- | :- |
+| 1 | Descripción inicial poco clara sobre PowerSens | 1 | IA – Is it clear? |
+| 2 | Navegación inicial poco intuitiva | 1 | IA – Is it usable? |
+| 3 | Inconsistencias en el diseño visual | 1 | Usability – Consistency and standards |
+
+---
+
+## **Web Application**
+
+| # | Problema | Severidad | Heurística violada |
+| :- | :- | :- | :- |
+| 1 | Indicadores de consumo poco explicados | 1 | IA – Is it clear? |
+| 2 | Funciones como “Alertas” difíciles de ubicar | 1 | IA – Is it findable? |
+| 3 | Diferencias visuales entre vistas internas | 1 | Usability – Consistency and standards |
+
+---
+
+# **Descripción de Problemas**
+
+## **Landing Page**
+
+### **1. Problema #1**
+- **Severidad**: 1  
+- **Heurística violada**: IA – Is it clear?  
+- **Descripción**: La explicación inicial del funcionamiento de PowerSens puede resultar poco directa.  
+- **Recomendación**: Simplificar el mensaje principal con ejemplos visuales.
+
+### **2. Problema #2**
+- **Severidad**: 1  
+- **Heurística violada**: IA – Is it usable?  
+- **Descripción**: La navegación inicial no indica claramente por dónde empezar.  
+- **Recomendación**: Añadir llamadas a la acción más visibles.
+
+### **3. Problema #3**
+- **Severidad**: 1  
+- **Heurística violada**: Usability – Consistency and standards  
+- **Descripción**: Botones y secciones presentan variaciones de estilo.  
+- **Recomendación**: Unificar tipografías, tamaños y colores.
+
+---
+
+## **Web Application**
+
+### **1. Problema #1**
+- **Severidad**: 1  
+- **Heurística violada**: IA – Is it clear?  
+- **Descripción**: Algunos datos del dashboard no incluyen textos guía o etiquetas claras.  
+- **Recomendación**: Incorporar tooltips o descripciones breves.
+
+### **2. Problema #2**
+- **Severidad**: 1  
+- **Heurística violada**: IA – Is it findable?  
+- **Descripción**: Módulos como “Alertas” o “Programaciones” no están bien destacados.  
+- **Recomendación**: Reorganizar la barra de navegación para darles mayor visibilidad.
+
+### **3. Problema #3**
+- **Severidad**: 1  
+- **Heurística violada**: Usability – Consistency and standards  
+- **Descripción**: Diferencias visuales entre vistas (Dashboard, Dispositivos, Reportes).  
+- **Recomendación**: Aplicar un mismo patrón visual en toda la app.
+
+
 ### **5.4. Video About-the-Product**
+
+ **LINK DEL ABOUT THE PRODUCT :**[ ABOUT THE PRODUCT](https://acortar.link/7TZQ4V) 
 
 
 
@@ -2038,4 +2171,4 @@ En el tercer sprint, el equipo centró sus esfuerzos en desarrollar la estructur
 5. **Link del repositorio de la Landing Page :** [Repositorio LandingPage](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page)
 6. **Figma con los User Flow Diagrams, wireframes y mockups de la landing page:** [Figma](https://www.figma.com/design/6zsotpbkoOZH0xcz69YyCU/Mock-Upc?node-id=0-1&t=svzqcosOPQg0VdcE-1)
 7. **2.2.2. Registro de entrevistas:** [Entrevistas](https://www.youtube.com/watch?v=mx5nMZDKNeg)
-8. **Video de exposición:**[ Video de la exposicion]()
+
