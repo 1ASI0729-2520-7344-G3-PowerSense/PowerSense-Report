@@ -1950,6 +1950,112 @@ Se incluye la evidencia del despliegue del backend, junto con el enlace correspo
 <img src="https://i.imgur.com/MbE9ZBZ.png" />
 <img src="https://i.imgur.com/hrxLnsj.png" />
 <img src="https://i.imgur.com/u7tNxsF.png" />
+### 5.2.4. Sprint 4
+En esta sección se presenta el Sprint 4, el cual marca la etapa final de desarrollo e integración. El enfoque principal fue la consolidación del Backend bajo una arquitectura DDD, la implementación de la gestión de identidades (IAM), la contenedorización y el despliegue final de los servicios.
+
+#### 5.2.4.1. Sprint Planning 4
+
+| **Sprint #** | Sprint 4 |
+|---|---|
+| **Sprint Planning Background** |  |
+| **Date** | 2025-11-14 |
+| **Time** | 9:00 PM |
+| **Location** | Reunión mediante Discord |
+| **Prepared By** | Sebastian Escobar |
+| **Attendees (to planning meeting)** | Juan Pastor /Anderson Gonza/ Irving Allcca / Arturo Nuñez |
+| **Sprint 3 Review Summary** | Durante el Sprint 3 se definieron los modelos base. Se identificó la necesidad de reestructurar el proyecto siguiendo principios de Domain-Driven Design (DDD) y asegurar la conexión segura con la base de datos. |
+| **Sprint 3 Retrospective Summary** | El equipo acordó mejorar la trazabilidad del código y estandarizar la configuración del entorno mediante Docker para evitar problemas de compatibilidad en el despliegue. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 4 Goal** | Nuestro objetivo es finalizar la lógica de negocio del Backend, implementar el sistema de gestión de identidad (IAM), dockerizar la aplicación y realizar el despliegue productivo de la base de datos (MySQL) y el servicio backend en Render, asegurando la conexión con el frontend. |
+| **Sprint 4 Velocity** | 24 Story Points |
+| **Sum of Story Points** | 24 |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Capítulo I: Introducción (L/C)** | **Capítulo II: Requirements Elicitation & Analysis (L/C)** | **Capítulo III: Requirements Specification (L/C)** | **Capítulo IV: Product Design (L/C)** | **Capítulo V: Product Implementation, Validation & Deployment (L/C)** |
+| --------------------------------------- | ------------------- | ---------------------------------- | ---------------------------------------------------------- | -------------------------------------------------- | ------------------------------------- | --------------------------------------------------------------------- |
+| **Allcca Guerrero, Irving** | noway-evitern17     | **L** | **C** | **C** | **C** | **C** |
+| **Pastor Napa, Juan** | ElKiwi1271          | **C** | **L** | **C** | **C** | **C** |
+| **Nuñez Soto, Andy Arturo** | arturo-ns           | **C** | **C** | **L** | **C** | **C** |
+| **Gonza Morales, Anderson** | Ander-U             | **C** | **C** | **L** | **C** | **C** |
+| **Escobar Palomino, Sebastian** | sebasepe            | **C** | **C** | **C** | **C** | **L** |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+| User Story Id | User Story Title | Task Id | Task Title | Description | Estimation (Horas) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| - | Configuración Backend | TK40 | Initial Setup | Configuración inicial del repositorio y estructura del proyecto backend. | 3 | Andy Nuñez | Done |
+| HU37 | Endpoint de autenticación | TK41 | Implementar IAM | Desarrollo del módulo de Identity and Access Management (IAM) para seguridad. | 5 | Irving Allcca | Done |
+| - | Infraestructura | TK42 | Crear Dockerfile | Creación y configuración del Dockerfile para la contenedorización del servicio. | 3 | Andy Nuñez | Done |
+| - | Configuración | TK43 | Update Properties | Ajuste de `application.properties` para entornos de despliegue. | 2 | Andy Nuñez | Done |
+| HU38 | Lógica de Negocio | TK44 | Update Logic | Actualización y refactorización de la lógica principal en `com.powersense`. | 4 | Andy Nuñez | Done |
+| - | Documentación | TK45 | Update Documentation | Documentación técnica, arquitectura DDD y endpoints (README). | 2 | Juan Pastor | Done |
+| - | Calidad de Código | TK46 | Add Comments | Documentación del código fuente y añadido de comentarios explicativos. | 2 | Sebastian Escobar | Done |
+| - | Base de Datos | TK47 | Despliegue MySQL | Configuración y despliegue de la base de datos MySQL en la nube. | 3 | Andy Nuñez | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Author | Committed on (Date) |
+|---|---|---|---|---|---|
+| PowerSense-Backend | main | cb43849 | `chore(doc)` | ElKiwi1271 | Dec 1, 2025 |
+| PowerSense-Backend | main | 8322d65 | `feat:add IAM` | noway-evitern17 | Nov 28, 2025 |
+| PowerSense-Backend | main | b33749e | `Create Dockerfile` | arturo-ns | Nov 27, 2025 |
+| PowerSense-Backend | main | de5de2a | `Update application.properties` | arturo-ns | Nov 27, 2025 |
+| PowerSense-Backend | main | 981c662 | `Update com.powersense logic` | arturo-ns | Nov 27, 2025 |
+| PowerSense-Backend | main | 4cd1f13 | `FEAT : ADD COMMENTS` | sebasepe | Nov 16, 2025 |
+| PowerSense-Backend | main | 0b3ca48 | `Initial commit backend` | arturo-ns | Nov 15, 2025 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+En este sprint final se consolidó la infraestructura del proyecto. Se muestra a continuación la evidencia del despliegue exitoso de la base de datos MySQL, fundamental para la persistencia de los datos de la aplicación.
+
+<div style="text-align: center;">
+  <img src="src/sprint4/mysql_deployment.png" width="90%" alt="Despliegue MySQL Exitoso" />
+  <p><i>Figura 1: Despliegue exitoso del servicio MySQL en la nube.</i></p>
+</div>
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+Se ha completado la documentación técnica del backend, estructurado bajo principios de **Domain-Driven Design (DDD)** con los módulos: `domain`, `application`, `infrastructure` e `interfaces`.
+
+**Stack Tecnológico:**
+* **Lenguaje:** Java 17 (Spring Boot)
+* **Base de Datos:** MySQL
+* **Despliegue:** Render (Backend) & GitHub Pages (Frontend)
+
+**Endpoints Principales Implementados (API v1):**
+
+* **Autenticación (`/api/v1/auth`):**
+    * `POST /register`, `POST /login`: Gestión de acceso y creación de cuentas.
+    * `GET /me`, `PUT /profile`: Gestión de perfil de usuario.
+
+* **Analítica (`/api/v1/analytics`):**
+    * **Dashboard:** `GET /dashboard/kpis`, `GET /dashboard/alerts` para visualización en tiempo real.
+    * **Reportes:** `GET /reports/monthly-comparison`, `GET /reports/realtime-consumption` para históricos y consumo actual.
+
+* **Inventario (`/api/v1/inventory`):**
+    * **Dispositivos:** `GET /devices`, `POST /devices`, `PATCH /{id}/status` (Control ON/OFF).
+    * **Horarios:** `POST /schedules`, `PATCH /{id}/toggle` para automatización.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+El despliegue final valida que todos los componentes están operativos en la nube.
+
+* **Backend:** El servicio `PowerSense-Backend` se encuentra en estado **Deployed** en la región de Oregon, utilizando Docker como runtime.
+* **Frontend:** El entorno `github-pages` muestra un despliegue exitoso, sirviendo la interfaz de usuario que consume los endpoints documentados.
+
+<div style="text-align: center;">
+  <img src="src/sprint4/render_deployment.png" width="100%" alt="Render Deployment Status" />
+  <p><i>Estado del servicio Backend en Render: Deployed.</i></p>
+</div>
+
+<div style="text-align: center;">
+  <img src="src/sprint4/github_pages_deployment.png" width="100%" alt="GitHub Pages Deployment" />
+  <p><i>Estado del despliegue del Frontend en GitHub Pages.</i></p>
+</div>
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+La colaboración en el Sprint 4 permitió integrar todas las capas del desarrollo:
+* **ElKiwi1271 (Juan Pastor)** se encargó de la documentación técnica y arquitectura del proyecto.
+* **Arturo-ns** lideró la configuración de infraestructura (Docker, Properties) y lógica core.
+* **Noway-evitern17** implementó el módulo de seguridad (IAM).
+* **Sebasepe** aseguró la calidad del código mediante comentarios y revisiones.
 
 ### **5.3. Validation Interviews**
 #### **5.3.1. Diseño de Entrevistas**
