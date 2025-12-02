@@ -1950,6 +1950,7 @@ Se incluye la evidencia del despliegue del backend, junto con el enlace correspo
 <img src="https://i.imgur.com/MbE9ZBZ.png" />
 <img src="https://i.imgur.com/hrxLnsj.png" />
 <img src="https://i.imgur.com/u7tNxsF.png" />
+
 ### 5.2.4. Sprint 4
 En esta sección se presenta el Sprint 4, el cual marca la etapa final de desarrollo e integración. El enfoque principal fue la consolidación del Backend bajo una arquitectura DDD, la implementación de la gestión de identidades (IAM), la contenedorización y el despliegue final de los servicios.
 
