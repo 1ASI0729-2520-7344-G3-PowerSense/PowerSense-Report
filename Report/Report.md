@@ -21,7 +21,7 @@
 | Allcca Guerrero, Irving       | U202213241   |
 | Escobar Palomino, Sebastian   | U202125968   |
 | Gonza Morales, Anderson       | U202120836   |
-| Nuñez Soto, Andy Arturo       | U999999999   |
+| Nuñez Soto, Andy Arturo       | U20231E795   |
 | Pastor Napa, Juan             | U202217288   |
 
 </div>
@@ -33,7 +33,8 @@
 | ------- | ---------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | TB1    | 19/09/2025 | Powersense | En esta primera entrega se han incluido los capítulos:<br>• **Capítulo I:** Introducción<br>• **Capítulo II:** Requirements Elicitation & Analysis<br>• **Capítulo III:** Requirements Specification<br>• **Capítulo IV:** Product Design<br>• **Capítulo V:** Product Implementation, Validation & Deployment |
  TP1    | 08/10/2025 | Powersense | En esta segunda entrega se han incluido los capítulos: Realización del Sprint 2 Planning y el Development Evidence para el Sprint Review (5.2.1.3 a 5.2.1.6 ) ,Finalización del Sprint 2: testing suite, ejecución, documentación de servicios y despliegue de software (5.2.2.4 a 5.2.2.7). Incorporación de Team Collaboration Insights del Sprint 2 (5.2.2.8). |
- TB2    | 14/11/2025 | Powersense | En esta segunda entrega se han incluido los capítulos: Realización del Sprint 3 Planning y el Development Evidence para el Sprint Review (5.2.3.3 a 5.2.1.6 ) ,Finalización del Sprint 3: testing suite, ejecución, documentación de servicios y despliegue de software (5.2.3.4 a 5.2.3.7). Incorporación de Team Collaboration Insights del Sprint 2 (5.2.3.8). |
+ TB2    | 14/11/2025 | Powersense | En esta segunda entrega se han incluido los capítulos: Realización del Sprint 3 Planning y el Development Evidence para el Sprint Review (5.2.3.3 a 5.2.1.6 ) ,Finalización del Sprint 3: testing suite, ejecución, documentación de servicios y despliegue de software (5.2.3.4 a 5.2.3.7). Incorporación de Team Collaboration Insights del Sprint 3 (5.2.3.8). |
+  TF1    | 30/11/2025 | Powersense | En esta ultima entrega se han incluido los capítulos: Realización del Sprint 4 Planning y el Development Evidence para el Sprint Review (5.2.4.3 a 5.2.4.6 ) ,Finalización del Sprint 4: testing suite, ejecución, documentación de servicios y despliegue de software (5.2.4.4 a 5.2.4.7). Incorporación de Team Collaboration Insights del Sprint 4 (5.2.4.8). |
 
 # Project Report Collaboration Insights
 Enlace al repositorio para el informe del proyecto (Github): [PowerSense](hhttps://github.com/orgs/1ASI0729-2520-7344-G3-PowerSense/repositories)
@@ -66,12 +67,18 @@ Asimismo, se elaboraron los artefactos requeridos utilizando las herramientas re
 Las actividades asignadas al TB2 fueron realizadas y registradas en el repositorio de GitHub del equipo. Asimismo, se llevaron a cabo reuniones de coordinación para organizar el desarrollo de los componentes del informe y revisar los avances del Sprint 3, centrado en el progreso del frontend y las mejoras del backend.
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/HhfnqYC.png" width="100%" />
+  <img src="https://i.imgur.com/p55ILcF.png" width="100%" />
 </div>
 
+
+## TF1
+Las actividades asignadas al TF1 fueron realizadas y registradas en el repositorio de GitHub del equipo. Asimismo, se llevaron a cabo reuniones de coordinación para organizar el desarrollo de los componentes del informe y revisar los avances del Sprint 4, centrado en el progreso del fronted y backend.
+
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/6g9v0TU.png" width="100%" />
+  <img src="https://i.imgur.com/EXCx4lQ.png" width="100%" />
 </div>
+
+
 
 # Contenido
 ## Tabla de contenidos
@@ -190,15 +197,15 @@ Las actividades asignadas al TB2 fueron realizadas y registradas en el repositor
       - [**5.2.3.6.Services Documentation Evidence for Sprint Review.**](#5236-services-documentation-evidence-for-sprint-review)
       - [**5.2.3.7.Software Deployment Evidence for Sprint Review.**](#5237-software-deployment-evidence-for-sprint-review)
       - [**5.2.3.8.Team Collaboration Insights during Sprint.**](#5238-team-collaboration-insights-during-sprint)
-    - [**5.2.4. Sprint 4**]()
-      - [**5.2.4.1. Sprint Planning 4**]()
-      - [**5.2.4.2. Aspect Leaders and Collaborators**]()
-      - [**5.2.4.3. Sprint Backlog 4**]()
-      - [**5.2.4.4. Development Evidence for Sprint Review.**]()
-      - [**5.2.4.5. Execution Evidence for Sprint Review.**]()
-      - [**5.2.4.6. Services Documentation Evidence for Sprint Review.**]()
-      - [**5.2.4.7. Software Deployment Evidence for Sprint Review.**]()
-      - [**5.2.4.8. Team Collaboration Insights during Sprint.**]()
+    - [**5.2.4. Sprint 4**](#524-sprint-4)
+      - [**5.2.4.1. Sprint Planning 4**](#5241-sprint-planning-4)
+      - [**5.2.4.2. Aspect Leaders and Collaborators**](#5242-aspect-leaders-and-collaborators)
+      - [**5.2.4.3. Sprint Backlog 4**](#5243-sprint-backlog-4)
+      - [**5.2.4.4. Development Evidence for Sprint Review.**](#5244-development-evidence-for-sprint-review)
+      - [**5.2.4.5. Execution Evidence for Sprint Review.**](#5245-execution-evidence-for-sprint-review)
+      - [**5.2.4.6. Services Documentation Evidence for Sprint Review.**](#5246-services-documentation-evidence-for-sprint-review)
+      - [**5.2.4.7. Software Deployment Evidence for Sprint Review.**](#5247-software-deployment-evidence-for-sprint-review)
+      - [**5.2.4.8. Team Collaboration Insights during Sprint.**](#5248-team-collaboration-insights-during-sprint)
   - [**5.3. Validation Interviews.**](#53-validation-interviews)
     - [**5.3.1. Diseño de Entrevistas.**](#531-diseño-de-entrevistas)
     - [**5.3.2. Registro de Entrevistas.**](#532-registro-de-entrevistas)
@@ -214,10 +221,11 @@ Las actividades asignadas al TB2 fueron realizadas y registradas en el repositor
  Criterio: Habilidad para comunicarse de manera efectiva con diversas audiencias. A continuación, se presenta un cuadro con
  las acciones realizadas y las conclusiones emitidas por el grupo, que demuestran cómo se alcanzó el cumplimiento del ABET– EAC – Student Outcome 3.
 
-| **Criterio específico** | **Acciones realizadas** | **Conclusiones** | 
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |--------------------------|------------------------------------|------------------|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Irving Allcca Guerrero:**<br>• **TB1:** Preparó una presentación en PowerPoint de 10 diapositivas sobre el “Startup Profile”, diseñando gráficas comparativas y adaptando el discurso para audiencias técnicas y de negocio.<br>• **TP1:** Explicó el flujo de login y registro durante la revisión técnica, destacando la usabilidad y validación de formularios en Angular Material.<br>• **TB2:** Presentó los avances del backend y el despliegue en Render, explicando la estructura de los endpoints y la documentación en Swagger para audiencias técnicas.<br><br>**Sebastián Escobar Palomino:**<br>• **TB1:** Explicó el “Solution Profile” y los “Lean UX Problem Statements” en un pitch de 5 min, gestionando preguntas de sus compañeros.<br>• **TP1:** Dirigió la presentación del avance del Sprint 2, detallando commits y configuración de GitHub Pages.<br>• **TB2:** Expuso la organización del sprint y el progreso del frontend, comunicando los cambios en componentes y navegación del Dashboard.<br><br>**Anderson Gonza Morales:**<br>• **TB1:** Moderó la sesión de preguntas y reforzó intervenciones con datos estadísticos para audiencia no técnica.<br>• **TP1:** Expuso las funciones del módulo de alertas con ejemplos reales.<br>• **TB2:** Explicó la integración del módulo de dispositivos y la gestión de estados, comunicando claramente el funcionamiento y casos de uso.<br><br>**Andy Arturo Núñez Soto:**<br>• **TB1:** Registró dudas de la audiencia, sintetizó puntos clave y propuso mejoras en la presentación.<br>• **TP1:** Presentó la estructura de componentes del frontend y decisiones de diseño para optimizar el rendimiento.<br>• **TB2:** Comunicó el flujo de coordinación entre frontend y backend, abordando la interacción con endpoints y validaciones en la UI.<br><br>**Juan Pastor Napa:**<br>• **TB1:** Propuso mejoras de comunicación y coordinación interna.<br>• **TP1:** Mostró la navegación funcional del Dashboard y reportes de consumo.<br>• **TB2:** Presentó la evidencia del backend y la documentación técnica, explicando el funcionamiento de los endpoints del módulo de dispositivos y reportes. | En **TB1** se trabajó la adaptación del mensaje según la audiencia. En **TP1**, se fortaleció la comunicación técnica durante revisiones. En **TB2**, el equipo consolidó su capacidad para explicar desarrollos avanzados (backend, frontend y despliegue), mejorando la claridad en presentaciones técnicas. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Irving Allcca Guerrero:**<br>• **TB1:** Redactó en Markdown las secciones 1.1 y 1.1.1 con estructura académica.<br>• **TP1:** Documentó autenticación y fake API con trazabilidad técnica.<br>• **TB2:** Redactó la documentación de los endpoints del backend y el despliegue en Render, aplicando lenguaje técnico y ejemplos de uso.<br><br>**Sebastián Escobar Palomino:**<br>• **TB1:** Diseñó tabla de contenidos y estilos del documento.<br>• **TP1:** Redactó evidencia de commits y flujo CI/CD.<br>• **TB2:** Documentó los componentes actualizados del frontend y agregó capturas del Dashboard revisado, asegurando claridad en el apartado visual.<br><br>**Anderson Gonza Morales:**<br>• **TB1:** Documentó el “Lean UX Process”.<br>• **TP1:** Elaboró guía de pruebas del módulo de dispositivos.<br>• **TB2:** Redactó la sección de integración frontend-backend, describiendo endpoints utilizados, validaciones y escenarios de prueba.<br><br>**Andy Arturo Núñez Soto:**<br>• **TB1:** Corregió formato Markdown y consistencia visual.<br>• **TP1:** Documentó la “Development Evidence”.<br>• **TB2:** Redactó la sección de “TB2 Evidence”, detallando avances del sprint, decisiones técnicas y estructura de carpetas del proyecto.<br><br>**Juan Pastor Napa:**<br>• **TB1:** Documentó el despliegue backend.<br>• **TP1:** Redactó “Services Documentation Evidence”.<br>• **TB2:** Documentó la evidencia de pruebas del backend, describiendo respuestas de los endpoints y casos de error. | La **TB1** fortaleció la redacción técnica inicial. En **TP1**, se consolidó la documentación del proyecto en formato Markdown. En **TB2**, se elevó la calidad de la documentación técnica, incorporando evidencia de endpoints, despliegues y flujos completos del sistema. |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Irving Allcca Guerrero:**<br>• **TB1:** Preparó una presentación en PowerPoint de 10 diapositivas sobre el “Startup Profile”.<br>• **TP1:** Explicó el flujo de login y registro durante la revisión técnica.<br>• **TB2:** Presentó los avances del backend y el despliegue en Render.<br>• **TF:** Explicó la integración final del frontend y backend, mostrando el funcionamiento completo del sistema, manejo de estados, validaciones y consumo de endpoints en producción.<br><br>**Sebastián Escobar Palomino:**<br>• **TB1:** Explicó el “Solution Profile” en un pitch de 5 minutos.<br>• **TP1:** Dirigió la presentación del avance del Sprint 2.<br>• **TB2:** Expuso avances del Dashboard y mejoras visuales.<br>• **TF:** Presentó la implementación final del frontend, incluyendo navegación completa, módulos funcionales y decisiones de diseño responsivo.<br><br>**Anderson Gonza Morales:**<br>• **TB1:** Moderó preguntas y reforzó conceptos clave.<br>• **TP1:** Expuso las funciones del módulo de alertas.<br>• **TB2:** Explicó integración del módulo de dispositivos.<br>• **TF:** Explicó la integración total del sistema, demostrando cómo el backend soporta los flujos del frontend y coordinando la demostración final del sistema funcionando.<br><br>**Andy Arturo Núñez Soto:**<br>• **TB1:** Registró y sintetizó dudas de la audiencia.<br>• **TP1:** Presentó decisiones de diseño del frontend.<br>• **TB2:** Comunicó el flujo de coordinación entre frontend y backend.<br>• **TF:** Explicó la estructura final de componentes del frontend, manejo de errores, consumo de APIs y funcionamiento sólido del Dashboard en producción.<br><br>**Juan Pastor Napa:**<br>• **TB1:** Propuso mejoras de comunicación interna.<br>• **TP1:** Mostró navegación funcional del Dashboard.<br>• **TB2:** Presentó la evidencia del backend y endpoints.<br>• **TF:** Explicó el despliegue final del backend, pruebas funcionales completas y la integración del reporte de consumo con el frontend en entorno productivo. | En **TB1** se fortaleció la comunicación inicial. En **TP1** se consolidaron las presentaciones técnicas. En **TB2** se evidenció dominio de los avances del sistema. En el **TF**, el equipo demostró capacidad plena para comunicar la implementación final del sistema, integrando frontend y backend y presentando un producto funcional ante audiencias técnicas y académicas. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Irving Allcca Guerrero:**<br>• **TB1:** Redactó secciones 1.1 y 1.1.1 en formato académico.<br>• **TP1:** Documentó autenticación y fake API.<br>• **TB2:** Documentó endpoints del backend y despliegue.<br>• **TF:** Redactó documentación final del backend, casos de uso, validaciones y flujo completo del sistema integrado.<br><br>**Sebastián Escobar Palomino:**<br>• **TB1:** Diseñó estructura del documento.<br>• **TP1:** Redactó evidencia de commits y CI/CD.<br>• **TB2:** Documentó componentes del frontend.<br>• **TF:** Documentó el frontend final, navegación completa, servicios y guía de despliegue en producción.<br><br>**Anderson Gonza Morales:**<br>• **TB1:** Documentó el Lean UX Process.<br>• **TP1:** Elaboró guía de pruebas del módulo de dispositivos.<br>• **TB2:** Documentó integración frontend–backend.<br>• **TF:** Redactó la documentación final del sistema, casos de prueba completos y escenarios de error con soporte visual y técnico.<br><br>**Andy Arturo Núñez Soto:**<br>• **TB1:** Aseguró consistencia de formato Markdown.<br>• **TP1:** Documentó Development Evidence.<br>• **TB2:** Redactó evidencia técnica del Sprint 3.<br>• **TF:** Documentó arquitectura final del frontend, estructura de carpetas, servicios, interceptores y lógica de estado.<br><br>**Juan Pastor Napa:**<br>• **TB1:** Documentó el despliegue backend.<br>• **TP1:** Redactó Services Documentation Evidence.<br>• **TB2:** Documentó pruebas del backend.<br>• **TF:** Documentó el despliegue final del backend, endpoints definitivos y trazabilidad técnica del sistema integrado. | En **TB1** se fortaleció la redacción técnica básica. En **TP1** se consolidó la documentación técnica en Markdown. En **TB2** se elevó el detalle técnico en endpoints, pruebas y flujos. En el **TF**, el equipo redactó documentación madura del sistema completo, describiendo arquitectura final, flujos, pruebas, despliegue y funcionamiento integral del proyecto. |
+
 
 
 # Capítulo I: Introducción
@@ -1959,7 +1967,7 @@ En esta sección se presenta el Sprint 4, el cual marca la etapa final de desarr
 | **Sprint #** | Sprint 4 |
 |---|---|
 | **Sprint Planning Background** |  |
-| **Date** | 2025-11-14 |
+| **Date** | 2025-11-20 |
 | **Time** | 9:00 PM |
 | **Location** | Reunión mediante Discord |
 | **Prepared By** | Sebastian Escobar |
@@ -2009,7 +2017,7 @@ En esta sección se presenta el Sprint 4, el cual marca la etapa final de desarr
 En este sprint final se consolidó la infraestructura del proyecto. Se muestra a continuación la evidencia del despliegue exitoso de la base de datos MySQL, fundamental para la persistencia de los datos de la aplicación.
 
 <div style="text-align: center;">
-  <img src="src/sprint4/mysql_deployment.png" width="90%" alt="Despliegue MySQL Exitoso" />
+  <img src="https://i.imgur.com/0CaM3Aj.jpeg" width="90%" alt="Despliegue MySQL Exitoso" />
   <p><i>Figura 1: Despliegue exitoso del servicio MySQL en la nube.</i></p>
 </div>
 
@@ -2042,12 +2050,12 @@ El despliegue final valida que todos los componentes están operativos en la nub
 * **Frontend:** El entorno `github-pages` muestra un despliegue exitoso, sirviendo la interfaz de usuario que consume los endpoints documentados.
 
 <div style="text-align: center;">
-  <img src="src/sprint4/render_deployment.png" width="100%" alt="Render Deployment Status" />
+  <img src="https://i.imgur.com/coybqHI.jpeg" width="100%" alt="Render Deployment Status" />
   <p><i>Estado del servicio Backend en Render: Deployed.</i></p>
 </div>
 
 <div style="text-align: center;">
-  <img src="src/sprint4/github_pages_deployment.png" width="100%" alt="GitHub Pages Deployment" />
+  <img src="https://i.imgur.com/V07xFVg.jpeg" width="100%" alt="GitHub Pages Deployment" />
   <p><i>Estado del despliegue del Frontend en GitHub Pages.</i></p>
 </div>
 
@@ -2057,6 +2065,14 @@ La colaboración en el Sprint 4 permitió integrar todas las capas del desarroll
 * **Arturo-ns** lideró la configuración de infraestructura (Docker, Properties) y lógica core.
 * **Noway-evitern17** implementó el módulo de seguridad (IAM).
 * **Sebasepe** aseguró la calidad del código mediante comentarios y revisiones.
+* **Ander-U** hizo la elaboración de las entrevistas e ayudo con la documentación
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/fRYeQlh.png" width="90%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/cvzZIdv.png" width="90%" />
+</div>
 
 ### **5.3. Validation Interviews**
 #### **5.3.1. Diseño de Entrevistas**
@@ -2108,7 +2124,28 @@ La colaboración en el Sprint 4 permitió integrar todas las capas del desarroll
 **Resumen de la Entrevista:** 
 El entrevistado Jose que es dueño de un minimarket, menciona que la sección de planes le parece relevante para su negocio, que la parte de áreas del app web le aprece muy útil ya que ahorra tiempo. Adicionalmente menciona que la poder programar un dispositivo le ahorraría dinero a la hora de que los trabajadores terminen su jornada.
 
-**Link entrevista: https://acortar.link/SW3InT** 
+**LINK ENTREVISTA :**[ENTREVISTA](https://acortar.link/SW3InT) 
+
+**Entrevista N°2:**
+
+**Entrevistado: Joaquin** 
+
+**Sexo: masculino** 
+
+**Edad: 21** 
+
+**Inicio de la Entrevista: 0:00** 
+
+**Fin de la Entrevista: 10:18** 
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/9h5Y7Tv.png" width="90%" />
+</div>
+
+**Resumen de la Entrevista:** 
+El entrevistado Joaquin que es dueño un centro de juegos, que la parte de áreas del app web le parece muy útil ya que ahorra tiempo. Adicionalmente menciona que la opción de que solo con un clic poder apagar y encender los dispositivos le interesa mucho. Que se le hizo muy fácil poder entender el app web sin necesidad de una guía.
+
+**LINK ENTREVISTA :**[ENTREVISTA](https://n9.cl/nyk65y) 
 
 
 ## Entrevista para el Segmento Objetivo 2 - HOGARES :
@@ -2131,8 +2168,28 @@ El entrevistado Jose que es dueño de un minimarket, menciona que la sección de
 **Resumen de la Entrevista:** 
 El entrevistado Oscar que reside en Chorrillos, menciona que si le aprecio intuitiva y fácil de usar el app web, que la landing page se resulto clara. Menciona que el grafico le ayuda mucho  poder saber donde se va mas energía y que también le gusta la opción de poder exportar en pdf la información.
 
-**Link entrevista: https://acortar.link/BZfCBM** 
+**LINK ENTREVISTA :**[ENTREVISTA](https://n9.cl/10i8d**) 
 
+
+**Entrevista N°2:**
+
+**Entrevistado: Marco** 
+
+**Sexo: masculino** 
+
+**Edad: 22** 
+**Inicio de la Entrevista: 0:00** 
+
+**Fin de la Entrevista: 9:17** 
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/L1hPtjq.png" width="90%" />
+</div>
+
+**Resumen de la Entrevista:** 
+El entrevistado Marco, menciona que los gráficos si logra representar bien el historial de consumo. Menciona que le resulto sencillo poder programar bien los horarios de los dispositivos. Comenta también el app web le resulto muy manejable, vistosa y bonita.
+
+**LINK ENTREVISTA :**[ENTREVISTA](https://n9.cl/bfev2**) 
 
 #### **5.3.3. Evaluaciones según heurísticas**
 
@@ -2228,6 +2285,7 @@ El entrevistado Oscar que reside en Chorrillos, menciona que si le aprecio intui
 
  **LINK DEL ABOUT THE PRODUCT :**[ ABOUT THE PRODUCT](https://acortar.link/7TZQ4V) 
 
+ **LINK DEL ABOUT THE TEAM:**[ ABOUT THE TEAM](https://n9.cl/hwhpu6) 
 
 
 #### Conclusiones
@@ -2273,9 +2331,12 @@ El entrevistado Oscar que reside en Chorrillos, menciona que si le aprecio intui
 #### Anexo
 1. **Despliegue del Landing Page:** [Landing Page](https://rococo-sprite-66ce8b.netlify.app/)
 2. **Despliegue del App Web:** [App Web](https://1asi0729-2520-7344-g3-powersense.github.io/PowerSense-Fronted/dashboard)
-3. **Link de la organización :** [Organización](https://github.com/1ASI0729-2520-7344-G3-PowerSense)
-4. **Link del repositorio del Reporte :** [Repositorio Reporte](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report)
-5. **Link del repositorio de la Landing Page :** [Repositorio LandingPage](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page)
-6. **Figma con los User Flow Diagrams, wireframes y mockups de la landing page:** [Figma](https://www.figma.com/design/6zsotpbkoOZH0xcz69YyCU/Mock-Upc?node-id=0-1&t=svzqcosOPQg0VdcE-1)
-7. **2.2.2. Registro de entrevistas:** [Entrevistas](https://www.youtube.com/watch?v=mx5nMZDKNeg)
+3. **Despliegue del Backend:** [Backend](https://powersense-backend.onrender.com/login)
+4. **Link de la organización :** [Organización](https://github.com/1ASI0729-2520-7344-G3-PowerSense)
+5. **Link del repositorio del Reporte :** [Repositorio Reporte](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Report)
+6. **Link del repositorio de la Landing Page :** [Repositorio LandingPage](https://github.com/1ASI0729-2520-7344-G3-PowerSense/PowerSense-Landing-Page)
+7. **Figma con los User Flow Diagrams, wireframes y mockups de la landing page:** [Figma](https://www.figma.com/design/6zsotpbkoOZH0xcz69YyCU/Mock-Upc?node-id=0-1&t=svzqcosOPQg0VdcE-1)
+8. **2.2.2. Registro de entrevistas:** [Entrevistas](https://www.youtube.com/watch?v=mx5nMZDKNeg)
+9. **Link de the about the product :**[About the product](https://acortar.link/7TZQ4V) 
+10. **Link de the about the team:**[About the team](https://n9.cl/hwhpu6)
 
