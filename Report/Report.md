@@ -946,12 +946,12 @@ Explica cómo se organiza el acceso a información más detallada, como soporte,
 ### 4.3.1. Landing Page Wireframe.
 
 <div style="text-align: center;">
-  <img src="https://imgur.com/8uDUf0C.png" width="90%" />
-  <img src="https://imgur.com/XA0Gv6i.png" width="90%" />
-  <img src="https://imgur.com/rN837sx.png" width="90%" />
-  <img src="https://imgur.com/F3JaQ9N.png" width="90%" />
-  <img src="https://imgur.com/8i6IjWm.png" width="90%" />
-  <img src="https://imgur.com/Ui0y2un.png" width="90%" />
+  <img src="https://i.imgur.com/blwW1Ip.jpeg" width="90%" />
+  <img src="https://i.imgur.com/jUOEB7J.png" width="90%" />
+  <img src="https://i.imgur.com/swhzUFv.png" width="90%" />
+  <img src="https://i.imgur.com/0DGaWa2.png" width="90%" />
+  <img src="https://i.imgur.com/fipGm38.png" width="90%" />
+  <img src="https://i.imgur.com/I9K7Wr9.png" width="90%" />
 
 </div>
 
@@ -1015,24 +1015,10 @@ A continuación los Mock ups, estos son los modelos de diseño que se utilizará
 ### 4.4.1. Web Applications Wireframes.
 
 <div style="text-align: center;">
-  <img src="" width="90%" />
-</div>
-
-<div style="text-align: center;">
-  <img src="" width="90%" />
-</div>
-
-<div style="text-align: center;">
-  <img src="h" width="90%" />
-</div>
-
-<div style="text-align: center;">
-  <img src="" width="90%" />
-</div>
-
-<div style="text-align: center;">
-  <img src="" width="90%" />
-</div>
+  <img src="https://i.imgur.com/cqhKHpV.png" width="90%" />
+  <img src="https://i.imgur.com/KqLJsaE.png" width="90%" />
+  <img src="https://i.imgur.com/RQwcZu9.png" width="90%" />
+  <img src="https://i.imgur.com/GE0VG57.png" width="90%" />
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
