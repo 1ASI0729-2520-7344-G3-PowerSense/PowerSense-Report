@@ -1,32 +1,36 @@
 
-## <p align="center">Informe de Trabajo Final</p>
-
-<p align="center">Universidad Peruana de Ciencias Aplicadas, Ingeniería de Software, 5to Ciclo</p>
 
 <div align="center">
-  <img src="https://i.imgur.com/37GXtIL.png" alt="Logo de UPC" />
+  <img src="https://i.imgur.com/37GXtIL.png" alt="Logo de UPC" width="120" />
 </div>
 
-<p align="center">Desarrollo de Aplicaciones Open Source - 1ASI0729</p>
-<p align="center">Sección: 7344</p>
-<p align="center"><strong>Nombre del profesor: Ivan Robles Fernández</strong></p>
-<p align="center"><strong>Nombre del startup:</strong> SODA </p>
-<p align="center"><strong>Nombre del producto:</strong> Powersense<p>
-<p align="center"><strong>Team members:</strong></p>
+## <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
+
+<p align="center">Ingeniería de Software</p>
+<p align="center">Periodo 202520</p>
+<p align="center">1ASI0729 | Desarrollo de Aplicaciones Open Source</p>
+<p align="center"><strong>NRC:</strong> 7344</p>
+<p align="center"><strong>Docente:</strong> Ivan Robles Fernández</p>
+
+# <p align="center">Informe del Trabajo Final</p>
+<p align="center"><strong>Startup:</strong> SODA</p>
+<p align="center"><strong>Producto:</strong> Powersense</p>
+
+
 
 <div align="center">
 
-|            Nombre             |    Código    |
-|:-----------------------------:|:------------:|
-| Allcca Guerrero, Irving       | U202213241   |
-| Escobar Palomino, Sebastian   | U202125968   |
-| Gonza Morales, Anderson       | U202120836   |
-| Nuñez Soto, Andy Arturo       | U20231E795   |
-| Pastor Napa, Juan             | U202217288   |
+| Código | Nombre |
+|:---:|:---:|
+| U202213241 | Allcca Guerrero, Irving |
+| U202125968 | Escobar Palomino, Sebastian |
+| U202120836 | Gonza Morales, Anderson |
+| U20231E795 | Nuñez Soto, Andy Arturo |
+| U202217288 | Pastor Napa, Juan |
 
 </div>
 
-<p align="center">Septiembre - 2025</p>
+<p align="center">Diciembre - 2025</p>
 
 # Registro de versiones del informe
 | Versión | Fecha      | Autor             | Descripción de modificación                                                                                                                                                                                                                                                                                       |
